@@ -1,0 +1,26 @@
+SMAP
+addquestions_jsp.java
+JSP
+*S JSP
+*F
++ 0 addquestions.jsp
+addquestions.jsp
++ 1 allLinks.jsp
+all_components/allLinks.jsp
++ 2 navbar.jsp
+all_components/navbar.jsp
+*L
+5,11:51
+1#1,82:62
+15#0,4:144
+1#2,32:148
+33,4:181
+36:185
+37:186,3
+38,5:189
+42,2:194
+43,5:196
+47,3:201
+49,8:204
+18#0,64:211
+*E

@@ -1,0 +1,2137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <link rel="shortcut icon" type="image/x-icon" href="Images/LoGo QP W.jpg" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+
+    <title>Notes | Quizpoint</title>
+</head>
+
+<body>
+    <!--        nav bar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+        <a class="navbar-brand navbar text-light " href="index.html">QuizPoint</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light " href="index.html"> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Quiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Tutorial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Interview Questions</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+
+                <button class="btn btn-outline-warning my-2 my-sm-0 m-2" type="submit">Login </button>
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Sign Up</button>
+
+            </form>
+        </div>
+    </nav>
+
+    <!--nav bar end-->
+
+    <!--order list start-->
+
+    <div class="row">
+        <div class="col-3">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item">
+                    <h4><b>Computer Networks Tutorial</b></h4>
+                </a>
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
+                    href="#list-home" role="tab" aria-controls="list-home">Introduction To Computer Networks</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                    href="#list-profile" role="tab" aria-controls="list-profile">Types of Computer Networks</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                    href="#list-messages" role="tab" aria-controls="list-messages">ISO-Model</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="list-settings">TCP-Model</a>
+                <a class="list-group-item list-group-item-action" id="list-dataLink-list" data-bs-toggle="list"
+                    href="#list-dataLink" role="tab" aria-controls="list-dataLink">Data Link Layer</a>
+                <a class="list-group-item list-group-item-action" id="list-protocol-list" data-bs-toggle="list"
+                    href="#list-protocol" role="tab" aria-controls="list-protocol">Data Link Protocol</a>
+                <a class="list-group-item list-group-item-action" id="list-slidingWindow-list" data-bs-toggle="list"
+                    href="#list-slidingWindow" role="tab" aria-controls="list-slidingWindow">Sliding Window Protocol</a>
+                <a class="list-group-item list-group-item-action" id="list-SDLC-list" data-bs-toggle="list"
+                    href="#list-SDLC" role="tab" aria-controls="list-SDLC">SDLC</a>
+                <a class="list-group-item list-group-item-action" id="list-MAC-list" data-bs-toggle="list"
+                    href="#list-MAC" role="tab" aria-controls="list-MAC">MAC</a>
+                <a class="list-group-item list-group-item-action" id="list-ALOHA-list" data-bs-toggle="list"
+                    href="#list-ALOHA" role="tab" aria-controls="list-ALOHA">ALOHA</a>
+                <a class="list-group-item list-group-item-action" id="list-CSMA-list" data-bs-toggle="list"
+                    href="#list-CSMA" role="tab" aria-controls="list-CSMA">CSMA</a>
+                <a class="list-group-item list-group-item-action" id="list-Network-list" data-bs-toggle="list"
+                    href="#list-Network" role="tab" aria-controls="Network-settings">Network Layer</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                    href="#list-Routing" role="tab" aria-controls="list-Routing">Routing algorithms:</a>
+                <a class="list-group-item list-group-item-action" id="list-Optimality-list" data-bs-toggle="list"
+                    href="#list-Optimality" role="tab" aria-controls="list-Optimality">Optimality and Bellman-ford
+                    algorithm:</a>
+                <a class="list-group-item list-group-item-action" id="list-IPv4-list" data-bs-toggle="list"
+                    href="#list-IPv4" role="tab" aria-controls="list-IPv4">IPv4 & IPv6</a>
+                <a class="list-group-item list-group-item-action" id="list-Packet-list" data-bs-toggle="list"
+                    href="#list-Packet" role="tab" aria-controls="list-Packets">Packet forwarding and Fragmentation</a>
+                <a class="list-group-item list-group-item-action" id="list-TransportLayer-list" data-bs-toggle="list"
+                    href="#list-TransportLayer" role="tab" aria-controls="list-TransportLayer">Transport Layer: </a>
+                <a class="list-group-item list-group-item-action" id="list-TCP-list" data-bs-toggle="list"
+                    href="#list-TCP" role="tab" aria-controls="list-TCP">TCP</a>
+                <a class="list-group-item list-group-item-action" id="list-IMP-list" data-bs-toggle="list"
+                    href="#list-IMP" role="tab" aria-controls="list-IMP">IMP</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+                <!--                    Introduction of Computer Networks-->
+                <div class="tab-pane fade show active m-4" id="list-home" role="tabpanel"
+                    aria-labelledby="list-home-list">
+                    <div>
+                        <p>A computer network is a set of computers connected together for the purpose of sharing
+                            resources. The most common resource shared today is connection to the Internet. Other shared
+                            resources can include a printer or a file server.</p>
+                        <ul>
+                            <li><strong>Computer Network</strong> is a group of computers connected with each other
+                                through wires, optical fibres or optical links so that various devices can interact with
+                                each other through a network.</li>
+                            <li>The aim of the computer network is the sharing of resources among various devices.</li>
+                            <li>In the case of computer network technology, there are several types of networks that
+                                vary from simple to complex level.</li>
+                        </ul>
+                        <h3> Goals of Computer Networks</h3>
+
+                        <ul>
+                            <li>Several machines can share printers, tape drives, etc.</li>
+                            <li>Reduced cost</li>
+                            <li>Resource and load sharing</li>
+                            <li>Programs do not need to run on a single machine</li>
+                            <li>High reliability</li>
+                            <li>If a machine goes down, another can take over</li>
+                            <li>Mail and communication</li>
+                        </ul>
+                        <img src="Images/Computer Network picture/components-of-computer-network.png" width="519"
+                            height="299" alt="components-of-computer-network" />
+                        <h2 class="m-4">Uses Of Computer Network</h2>
+                        <ul class="points">
+                            <li><strong>Resource sharing:</strong> Resource sharing is the sharing of resources such as
+                                programs, printers, and data among the users on the network without the requirement of
+                                the physical location of the resource and user.</li>
+                            <li><strong>Server-Client model:</strong> Computer networking is used in the
+                                <strong>server-client model</strong>. A server is a central computer used to store the
+                                information and maintained by the system administrator. Clients are the machines used to
+                                access the information stored in the server remotely.
+                            </li>
+                            <li><strong>Communication medium:</strong> Computer network behaves as a communication
+                                medium among the users. For example, a company contains more than one computer has an
+                                email system which the employees use for daily communication.</li>
+                            <li><strong>E-commerce:</strong> Computer network is also important in businesses. We can do
+                                the business over the internet. For example, amazon.com is doing their business over the
+                                internet, i.e., they are doing their business over the internet.</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!--                    Types of Computer Networks-->
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+
+                    <h3 class="m-4">Computer Network’s: Classifications & Types.</h3>
+                    <p>There are three types of network classification<br>
+                        1) LAN (Local area network)<br>
+                        2) MAN (Metropolitan Area network)<br>
+                        3) WAN (Wide area network)<br>
+                    </p>
+                    <img src="Images/Computer Network picture/lan wan wan.png" class="rounded mx-auto d-block"
+                        width="258" height="196" alt="lan wan wan" />
+
+                    <h3 class="m-4">1) Local area network (LAN)</h3>
+                    <p>LAN is a group of the computers placed in the same room, same floor, or the same building so they
+                        are connected to each other to form a single network to share their resources such as disk
+                        drives, data, CPU, modem etc. LAN is limited to some geographical area less than 2 km. Most of
+                        LAN is used widely is an Ethernet system of the bus topology.
+                    <p>
+                    <h4><strong>Characteristics of LAN</strong></h4>
+                    <p>LAN connects the computer in a single building, block and they are working in any limited area
+                        less than 2 km.<br>
+                        Media access control methods in a LAN, the bus-based Ethernet and token ring.</p>
+                    <img src="Images/Computer Network picture/lan.jpg" width="492" height="326" alt="lan" />
+
+
+
+                    <h3 class="m-4">2) Metropolitan Area network (MAN)</h3>
+                    <p>The metropolitan area network is a large computer network that expands a Metropolitan area or
+                        campus. Its geographic area between a WAN and LAN. its expand round 50km devices used are modem
+                        and wire/cable.
+                    <p>
+                    <h4><strong>Characteristics of MAN</strong></h4>
+                    <p>Its covers the towns and cities (50km)<br>
+                        MAN is used by the communication medium for optical fibre cables, it also used for other media.
+                    </p>
+
+                    <img src="Images/Computer Network picture/man-3.png" width="300" height="192" alt="man-3" />
+
+
+                    <h3 class="m-4">3) Wide area Network (WAN)</h3>
+                    <p>The wide area network is a network which connects the countries, cities or the continents, it is
+                        a public communications links. The most popular example of a WAN is the internet. WAN is used to
+                        connect LAN so the users and the computer in the one location can communicate with each other.
+                    <p>
+                    <h4><strong>Characteristics of WAN</strong></h4>
+                    <p>Its covers the large distances (More than 100 KM).<br>
+                        Communication medium used are satellite, telephones which are connected by the routers.
+                    </p>
+
+                    <img src="Images/Computer Network picture/WAN.gif" width="500" height="410" alt="WAN" />
+                </div>
+
+
+                <!--                    ISO-OSI model-->
+
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                    <div>
+
+                        <h2>ISO-OSI Reference Model</h2>
+                        <h4>#Principles of OSI Reference Model</h4>
+                        <p>The OSI reference model has 7 layers. The principles that were applied to arrive at the seven
+                            layers can be briefly summarized as follows: </p>
+                        <ul>
+                            <li>A layer should be created where a different abstraction is needed.</li>
+                            <li>Each layer should perform a well-defined function.</li>
+                            <li>The function of each layer should be chosen with an eye toward defining internationally
+                                standardized protocols.</li>
+                            <li>The layer boundaries should be chosen to minimize the information flow across the
+                                interfaces.</li>
+                            <li>The number of layers should be large enough that distinct functions need not be thrown
+                                together in the same layer out of necessity and small enough that architecture does not
+                                become unwieldly.</li>
+                        </ul>
+                        <h5>Feature of OSI Model:</h5>
+                        <ul>
+
+                            <li>Big picture of communication over network is understandable through this OSI model.</li>
+                            <li>We see how hardware and software work together.</li>
+                            <li>We can understand new technologies as they are developed.</li>
+                            <li>Troubleshooting is easier by separate networks.</li>
+                            <li>Can be used to compare basic functional relationships on different networks.</li>
+                        </ul>
+
+                        <img src="Images/Computer Network picture/osi model.png" width="653" height="523"
+                            alt="osi model" />
+
+                        <h4>#Description of Different Layers:</h4>
+                        <h5>Layer 1: The Physical Layer:</h5>
+                        <ul>
+                            <li>It is the lowest layer of the OSI Model.</li>
+                            <li>It activates, maintains and deactivates the physical connection.</li>
+                            <li>It is responsible for transmission and reception of the unstructured raw data over
+                                network.</li>
+                            <li>Voltages and data rates needed for transmission is defined in the physical layer.</li>
+                            <li>It converts the digital/ analog bits into electrical signal or optical signals.</li>
+                            <li>Data encoding is also done in this layer.</li>
+                        </ul>
+                        <h5>Layer 2: Data Link Layer:</h5>
+                        <ul>
+                            <li>Data link layer synchronizes the information which is to be transmitted over the
+                                physical layer.</li>
+                            <li>The main function of this layer is to make sure data transfer is error free from one
+                                node to another, over the physical layer.</li>
+                            <li>Transmitting and receiving data frames sequentially is managed by this layer.</li>
+                            <li>This layer sends and expects acknowledgements for frames received and sent respectively.
+                                Resending of non-acknowledgement received frames is also handled by this layer.</li>
+                            <li>This layer establishes a logical layer between two nodes and also manages the Frame
+                                traffic control over the network. It signals the transmitting node to stop, when the
+                                frame buffers are full.</li>
+                        </ul>
+                        <h5>Layer 3: The Network Layer:</h5>
+                        <ul>
+                            <li>It routes the signal through different channels from one node to other.</li>
+                            <li>It acts as a network controller. It manages the Subnet traffic.</li>
+                            <li>It decides by which route data should take.</li>
+                            <li>It divides the outgoing messages into packets and assembles the incoming packets into
+                                messages for higher levels.</li>
+                        </ul>
+                        <h5>Layer 4: Transport Layer:</h5>
+                        <ul>
+                            <li>It decides if data transmission should be on parallel path or single path.</li>
+                            <li>Functions such as Multiplexing, Segmenting or Splitting on the data are done by this
+                                layer</li>
+                            <li>It receives messages from the Session layer above it, converts the message into smaller
+                                units and passes it on to the Network layer.</li>
+                            <li>Transport layer can be very complex, depending upon the network requirements.</li>
+                        </ul>
+                        <h5>Layer 5: The Session Layer:</h5>
+                        <ul>
+                            <li>Session layer manages and synchronize the conversation between two different
+                                applications.</li>
+                            <li>Transfer of data from source to destination session layer streams of data are marked and
+                                are resynchronized properly, so that the ends of the messages are not cut prematurely,
+                                and data loss is avoided.</li>
+                        </ul>
+                        <h5>Layer 6: The Presentation Layer:</h5>
+                        <ul>
+                            <li>Presentation layer takes care that the data is sent in such a way that the receiver will
+                                understand the information (data) and will be able to use the data.</li>
+                            <li>While receiving the data, presentation layer transforms the data to be ready for the
+                                application layer.</li>
+                            <li>Languages (syntax) can be different of the two communicating systems. Under this
+                                condition presentation layer plays a role of translator.</li>
+                            <li>It performs Data compression, Data encryption, Data conversion etc.</li>
+                        </ul>
+                        <h5>Layer 7: Application Layer:</h5>
+                        <ul>
+                            <li>It is the topmost layer.</li>
+                            <li>Transferring of files disturbing the results to the user is also done in this layer.
+                                Mail services, directory services, network resource etc are services provided by
+                                application layer.</li>
+                            <li>This layer mainly holds application programs to act upon the received and to be sent
+                                data.</li>
+                        </ul>
+                        <h5>Merits of OSI reference model:</h5>
+                        <ul>
+                            <li>OSI model distinguishes well between the services, interfaces and protocols.</li>
+                            <li>Protocols of OSI model are very well hidden.</li>
+                            <li>Protocols can be replaced by new protocols as technology changes.</li>
+                            <li>Supports connection-oriented services as well as connectionless service.</li>
+                        </ul>
+
+
+
+                        <h5>Demerits of OSI reference model:</h5>
+                        <ul>
+                            <li>Model was devised before the invention of protocols.</li>
+                            <li>Fitting of protocols is tedious task.</li>
+                            <li>It is just used as a reference model.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+                <!--                    TCP-IP Model-->
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+
+
+                    <h2>TCP/IP Reference Model:</h2>
+                    <p>TCP/IP reference model was developed prior to OSI model. The major design goals of this model
+                        were,</p>
+                    <ul>
+                        <li>1. To connect multiple networks together so that they appear as a single network.</li>
+                        <li>2. To survive after partial subnet hardware failures.</li>
+                        <li>3. To provide a flexible architecture.</li>
+                    </ul>
+
+
+                    <p> OSI reference model, TCP/IP reference model has only 4 layers. They are,</p>
+                    <ul>
+                        <li> Host-to-Network Layer</li>
+                        <li>2. Internet Layer</li>
+                        <li>3. Transport Layer</li>
+                        <li>4. Application Layer</li>
+                    </ul>
+
+
+
+                    Layer 1: Host-to-network Layer
+                    <ul>
+                        <li>1. Lowest layer of the all.</li>
+                        <li>2. Protocol is used to connect to the host, so that the packets can be sent over it.</li>
+                        <li>3. Varies from host to host and network to network.</li>
+                    </ul>
+
+
+                    Layer 2: Internet layer
+                    <ul>
+                        <li>1. Selection of a packet switching network which is based on a connectionless internetwork
+                            layer is
+                            called a internet layer.</li>
+                        <li>2. It is the layer which holds the whole architecture together.</li>
+                        <li>3. It helps the packet to travel independently to the destination.</li>
+                        <li>4. Order in which packets are received is different from the way they are sent.</li>
+                        <li>5. IP (Internet Protocol) is used in this layer.</li>
+                        <li>6. The various functions performed by the Internet Layer are:</li>
+                        <li>o Delivering IP packets</li>
+                        <li>o Performing routing</li>
+                        <li>o Avoiding congestion</li>
+                    </ul>
+
+
+                    Layer 3: Transport Layer
+                    <ul>
+                        <li>1. It decides if data transmission should be on parallel path or single path.</li>
+                        <li>2. Functions such as multiplexing, segmenting or splitting on the data is done by transport
+                            layer.</li>
+                        <li>3. The applications can read and write to the transport layer.</li>
+                        <li>4. Transport layer adds header information to the data.</li>
+                        <li>5. Transport layer breaks the message (data) into small units so that they are handled more
+                        </li>
+                        <li>efficiently by the network layer.</li>
+                        <li>6. Transport layer also arrange the packets to be sent, in sequence.</li>
+                    </ul>
+
+
+                    Layer 4: Application Layer
+                    <ul>
+                        <li>The TCP/IP specifications described a lot of applications that were at the top of the
+                            protocol
+                            stack. Some of them were TELNET, FTP, SMTP, DNS etc.</li>
+                        <li>1. TELNET is a two-way communication protocol which allows connecting to a remote machine
+                            and run
+                            applications on it.</li>
+                        <li>2. FTP (File Transfer Protocol) is a protocol, that allows File transfer amongst computer
+                            users</li>
+                        <li>connected over a network. It is reliable, simple and efficient.</li>
+                        <li>3. SMTP (Simple Mail Transport Protocol) is a protocol, which is used to transport
+                            electronic mail
+                            between a source and destination, directed via a route.</li>
+                        <li>4. DNS (Domain Name Server) resolves an IP address into a textual address for Hosts
+                            connected over a
+                            network.</li>
+                        <li>5. It allows peer entities to carry conversation.</li>
+                        <li>6. It defines two end-to-end protocols: TCP and UDP
+                            o TCP (Transmission Control Protocol): It is a reliable connection-oriented protocol which
+                            handles
+                            byte-stream from source to destination without error and flow control.
+                            o UDP (User-Datagram Protocol): It is an unreliable connection-less protocol that does not
+                            want
+                            TCPs, sequencing and flow control. Example: One-shot request-reply kind of service.</li>
+                    </ul>
+
+                    <h5>Merits of TCP/IP model</h5>
+                    <ul>
+                        <li> It operated independently.</li>
+                        <li>2. It is scalable.</li>
+                        <li>3. Client/server architecture.</li>
+                        <li>4. Supports number of routing protocols.</li>
+                        <li>5. Can be used to establish a connection between two computers.</li>
+                    </ul>
+                    <h5>Demerits of TCP/IP</h5>
+                    <ul>
+                        <li> In this, the transport layer does not guarantee delivery of packets.</li>
+                        <li>2. The model cannot be used in any other application.</li>
+                        <li>3. Replacing protocol is not easy.</li>
+                        <li>4. It has not clearly separated its services, interfaces and protocols.</li>
+                    </ul>
+                </div>
+
+                <!-- data link  -->
+                <div class="tab-pane fade" id="list-dataLink" role="tabpanel" aria-labelledby="list-dataLink-list">
+
+                    <h3>DATA LINK LAYER: NEED</h3>
+                    <ul>
+                        <li>Data Link Layer is second layer of OSI Layered Model. This layer is one of the most
+                            complicated
+                            layers and has complex functionalities and liabilities.</li>
+                        <li>Data link layer hides the details ofunderlying hardware and represents itself to upper layer
+                            as
+                            the medium to communicate.</li>
+                        <li>Data link layer works between two hosts which are directly connected in some sense.</li>
+                        <li>This direct connection could be point to point or broadcast. Data link layer is responsible
+                            for
+                            converting data
+                            stream to signals bit by bit and to send that over the underlying hardware.</li>
+                    </ul>
+
+
+
+
+
+
+
+                    <ul>
+                        Data link layer has two sub-layers:
+                        <li>• Logical Link Control: It deals with protocols, flow-control, and error control</li>
+                        <li>• Media Access Control: It deals with actual control of media</li>
+                    </ul>
+                    <ul>
+                        DATA LINK LAYER: SERVICE PROVIDED
+                        <li>• Encapsulation of network layer data packets into frames.</li>
+                        <li>• Frame synchronization.</li>
+                        <li>• Error Control</li>
+                        <li>• Flow control, in addition to the one provided on the transport layer.</li>
+                        <li>• LAN switching (packet switching) including MAC filtering and spanning tree protocol</li>
+                        <li>• Data packet queuing or scheduling</li>
+                        <li>• Store-and-forward switching or cut-through switching</li>
+                    </ul>
+
+                    <h3>DATA LINK LAYER: FRAMING</h3>
+                    <p> the physical layer merely accepts and transmits a stream of bits without any regard to meaning
+                        or structure, it is up to the data link layer to create and recognize frame boundaries. <br>
+                        This can be accomplished by attaching special bit patterns to the beginning and end of the
+                        frame. <br>
+                        If these bit patterns can accidentally occur in data, special care must be taken to make sure
+                        these patterns are
+                        not incorrectly interpreted as frame delimiters. <br>
+
+                        The four framing methods that are widely used are<br>
+                        • Character count<br>
+                        • Starting and ending characters, with character stuffing<br>
+                        • Starting and ending flags, with bit stuffing<br>
+                    </p>
+
+                    <h4>Character Count</h4>
+                    <p>This method uses a field in the header to specify the number of characters in the frame. When the
+                        data link layer at the destination sees the character count, it knows how many characters
+                        follow,
+                        and hence where the end of the frame is. The disadvantage is that if the count is garbled by a
+                        transmission error, the destination will lose synchronization and will be unable to locate the
+                        start
+                        of the next frame. So, this method is rarely used.</p>
+                    <h4> stuffing</h4>
+                    <p>In the second method, each frame starts with the ASCII character sequence DLE STX and ends with
+                        the
+                        sequence DLE ETX. This method overcomes the drawbacks of the character count method. However,
+                        character stuffing is closely associated with 8-bit characters and this is a major hurdle in
+                        transmitting arbitrary sized characters.</p>
+                    <h4>Bit stuffing</h4>
+                    <p>The third method allows data frames to contain an arbitrary number of bits and allows character
+                        codes with an arbitrary number of bits per character. At the start and end of each frame is a
+                        flag
+                        byte consisting of the special bit pattern 01111110. Whenever the sender's data link layer
+                        encounters five consecutive 1s in the data, it automatically stuffs a zero bit into the outgoing
+                        bit
+                        stream. This technique is called bit stuffing</p>
+                    <h4>Physical layer coding violations</h4>
+                    <p>The final framing method is physical layer coding violations and is applicable to networks in
+                        which
+                        the encoding on the physical medium contains some redundancy. In such cases normally, a 1 bit is
+                        a
+                        high-low pair and a 0 bit is a low-high pair. The combinations of low-low and high-high which
+                        are
+                        not used for data may be used for marking frame boundaries.</p>
+
+                    <h2>Flow Control</h2>
+                    <p>When a data frame (Layer-2 data) is sent from one host to another over a single medium, it is
+                        required that the sender and receiver should work at the same speed. That is, sender sends at a
+                        speed on which the receiver can process and accept the data. What if the speed
+                        (hardware/software) of the sender or receiver differs? If sender is sending too fast the
+                        receiver may be overloaded, (swamped) and data may be lost.</p>
+                    <p>Two types of mechanisms can be deployed to control the flow:</p>
+
+                    <ul class="list">
+                        <li>
+                            <p><b>Stop and Wait</b></p>
+                            <p>
+                            </p>This flow control mechanism forces the sender after transmitting a data frame to stop
+                            and wait until the acknowledgement of the data-frame sent is received.<p></p>
+                            <img src="/data_communication_computer_network/images/stop_and_wait.jpg"
+                                alt="Stop and Wait">
+                        </li>
+                        <li>
+                            <p><b>Sliding Window</b></p>
+                            <p>In this flow control mechanism, both sender and receiver agree on the number of
+                                data-frames after which the acknowledgement should be sent. As we learnt, stop and wait
+                                flow control mechanism wastes resources, this protocol tries to make use of underlying
+                                resources as much as possible.</p>
+                        </li>
+                    </ul>
+
+                    <h2>Error Control </h2>
+                    <p>When data-frame is transmitted, there is a probability that data-frame may be lost in the transit
+                        or it is received corrupted. In both cases, the receiver does not receive the correct data-frame
+                        and sender does not know anything about any loss.In such case, both sender and receiver are
+                        equipped with some protocols which helps them to detect transit errors such as loss of
+                        data-frame. Hence, either the sender retransmits the data-frame or the receiver may request to
+                        resend the previous data-frame.</p>
+                    <p>Requirements for error control mechanism:</p>
+                    <ul class="list">
+                        <li>
+                            <p><b>Error detection</b> ; - The sender and receiver, either both or any, must
+                                ascertain that there is some error in the transit.</p>
+                        </li>
+                        <li>
+                            <p><b>Positive ACK</b> ; - When the receiver receives a correct frame, it should
+                                acknowledge it.</p>
+                        </li>
+                        <li>
+                            <p><b>Negative ACK</b> ; - When the receiver receives a damaged frame or a duplicate
+                                frame, it sends a NACK back to the sender and the sender must retransmit the correct
+                                frame.</p>
+                        </li>
+                        <li>
+                            <p><b>Retransmission:</b> ; The sender maintains a clock and sets a timeout period. If
+                                an acknowledgement of a data-frame previously transmitted does not arrive before the
+                                timeout the sender retransmits the frame, thinking that the frame or it’s
+                                acknowledgement is lost in transit.</p>
+                        </li>
+                    </ul>
+                    <p>There are three types of techniques available which Data-link layer may deploy to control the
+                        errors by Automatic Repeat Requests (ARQ):</p>
+                    <ul class="list">
+                        <li>
+                            <p></p>
+                            <h3>Stop-and-wait ARQ</h3>
+                            <p></p>
+                            <img src="/data_communication_computer_network/images/stop_and_wait_arq.jpg"
+                                alt="Stop and Wait ARQ">
+                            <p>The following transition may occur in Stop-and-Wait ARQ:</p>
+                            <ul class="list">
+                                <li>The sender maintains a timeout counter.</li>
+                                <li>When a frame is sent, the sender starts the timeout counter.</li>
+                                <li>If acknowledgement of frame comes in time, the sender transmits the next frame in
+                                    queue.</li>
+                                <li>If acknowledgement does not come in time, the sender assumes that either the frame
+                                    or its acknowledgement is lost in transit. Sender retransmits the frame and starts
+                                    the timeout counter.</li>
+                                <li>If a negative acknowledgement is received, the sender retransmits the frame.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p></p>
+                            <h3>Go-Back-N ARQ</h3>
+                            <p></p>
+                            <p>Stop and wait ARQ mechanism does not utilize the resources at their best.When the
+                                acknowledgement is received, the sender sits idle and does nothing. In Go-Back-N ARQ
+                                method, both sender and receiver maintain a window.</p>
+                            <img src="/data_communication_computer_network/images/go_back_n_arq.jpg"
+                                alt="Go-back-n ARQ">
+                            <p>The sending-window size enables the sender to send multiple frames without receiving the
+                                acknowledgement of the previous ones. The receiving-window enables the receiver to
+                                receive multiple frames and acknowledge them. The receiver keeps track of incoming
+                                frame’s sequence number.</p>
+                            <p>When the sender sends all the frames in window, it checks up to what sequence number it
+                                has received positive acknowledgement. If all frames are positively acknowledged, the
+                                sender sends next set of frames. If sender finds that it has received NACK or has not
+                                receive any ACK for a particular frame, it retransmits all the frames after which it
+                                does not receive any positive ACK.</p>
+                        </li>
+                        <li>
+                            <p></p>
+                            <h3>Selective Repeat ARQ</h3>
+                            <p></p>
+                            <p>In Go-back-N ARQ, it is assumed that the receiver does not have any buffer space for its
+                                window size and has to process each frame as it comes. This enforces the sender to
+                                retransmit all the frames which are not acknowledged.</p>
+                            <img src="/data_communication_computer_network/images/selective_repeat.jpg"
+                                caption="Selective Repeat ARQ">
+                            <p>In Selective-Repeat ARQ, the receiver while keeping track of sequence numbers, buffers
+                                the frames in memory and sends NACK for only frame which is missing or damaged.</p>
+                            <p>The sender in this case, sends only packet for which NACK is received.</p>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-pane fade" id="list-protocol" role="tabpanel" aria-labelledby="list-protocol-list">
+
+                    <h3> LINK LAYER PROTOCOL</h3>
+                    <p>The basic function of the layer is to transmit frames over a physical communication link.
+                        Transmission may be half duplex or full duplex. To ensure that frames are delivered free of
+                        errors
+                        to the destination station (IMP) a number of requirements are placed on a data link protocol.
+                        The
+                        protocol (control mechanism) should be capable of performing:</p>
+                    <ul>
+                        <li> The identification of a frame (i.e. recognises the first and last bits of a frame).</li>
+                        <li>2. The transmission of frames of any length up to a given maximum. Any bit pattern is
+                            permitted in a
+                            frame.</li>
+                        <li>3. The detection of transmission errors.</li>
+                        <li>4. The retransmission of frames which were damaged by errors.</li>
+                        <li>5. The assurance that no frames were lost.</li>
+                        <li>6. In a multidrop configuration some mechanism must be used for preventing conflicts caused
+                            by</li>
+                        simultaneous transmission by many stations.
+                        <li>7. The detection of failure or abnormal situations for control and monitoring purposes.</li>
+                        It should be noted that as far as layer 2 is concerned a host message is pure data, every single
+                        bit
+                        of which is to be delivered to the other host. The frame header pertains to layer 2 and is never
+                        given to the host.</li>
+                    </ul>
+
+                    <h4>Elementary Data Link Protocols</h4>
+                    <ul>
+                        <li>• Data are transmitted in one direction only</li>
+                        <li>• The transmitting (Tx) and receiving (Rx) hosts are always ready</li>
+                        <li>• Processing time can be ignored</li>
+                        <li>• Infinite buffer space is available</li>
+                        <li>• No errors occur; i.e. no damaged frames and no lost frames (perfect channel)</li>
+                    </ul>
+
+
+                </div>
+
+                <!-- sliding protocol -->
+                <div class="tab-pane fade" id="list-slidingWindow" role="tabpanel"
+                    aria-labelledby="list-slidingWindow-list">
+
+                    <h1 class="h1">Sliding Window Protocol</h1>
+                    <p>The sliding window is a technique for sending multiple frames at a time. It controls the data
+                        packets between the two devices where reliable and gradual delivery of data frames is needed. It
+                        is also used in <a href="https://www.javatpoint.com/tcp">TCP (Transmission Control
+                            Protocol)</a>.</p>
+                    <p>In this technique, each frame has sent from the sequence number. The sequence numbers are used to
+                        find the missing data in the receiver end. The purpose of the sliding window technique is to
+                        avoid duplicate data, so it uses the sequence number.</p>
+                    <h2 class="h2">Types of Sliding Window Protocol</h2>
+                    <h2 class="h2">Types of Sliding Window Protocol</h2>
+                    <p>Sliding window protocol has two types:</p>
+                    <ol class="points">
+                        <li>Go-Back-N ARQ</li>
+                        <li>Selective Repeat ARQ</li>
+                    </ol>
+                    <h3 class="h3">Go-Back-N ARQ</h3>
+                    <p>Go-Back-N ARQ protocol is also known as Go-Back-N Automatic Repeat Request. It is a data link
+                        layer protocol that uses a sliding window method. In this, if any frame is corrupted or lost,
+                        all subsequent frames have to be sent again.</p>
+                    <p>The size of the sender window is N in this protocol. For example, Go-Back-8, the size of the
+                        sender window, will be 8. The receiver window size is always 1.</p>
+                    <p>If the receiver receives a corrupted frame, it cancels it. The receiver does not accept a
+                        corrupted frame. When the timer expires, the sender sends the correct frame again. The design of
+                        the Go-Back-N ARQ protocol is shown below.</p>
+                    <img src="https://static.javatpoint.com/tutorial/computer-network/images/sliding-window-protocol.png"
+                        alt="Sliding Window Protocol">
+                    <img src="https://static.javatpoint.com/tutorial/computer-network/images/sliding-window-protocol.png"
+                        alt="Sliding Window Protocol">
+                    <img src="https://static.javatpoint.com/tutorial/computer-network/images/sliding-window-protocol-2.png"
+                        alt="Sliding Window Protocol">
+                    <h3 class="h3">Selective Repeat ARQ</h3>
+                    <p>Selective Repeat ARQ is also known as the Selective Repeat Automatic Repeat Request. It is a data
+                        link layer protocol that uses a sliding window method. The Go-back-N ARQ protocol works well if
+                        it has fewer errors. But if there is a lot of error in the frame, lots of bandwidth loss in
+                        sending the frames again. So, we use the Selective Repeat ARQ protocol. In this protocol, the
+                        size of the sender window is always equal to the size of the receiver window. The size of the
+                        sliding window is always greater than 1.</p>
+                    <p>If the receiver receives a corrupt frame, it does not directly discard it. It sends a negative
+                        acknowledgment to the sender. The sender sends that frame again as soon as on the receiving
+                        negative acknowledgment. There is no waiting for any time-out to send that frame. The design of
+                        the Selective Repeat ARQ protocol is shown below.</p>
+                    <img src="https://static.javatpoint.com/tutorial/computer-network/images/sliding-window-protocol-3.png"
+                        alt="Sliding Window Protocol">
+                    <p>The example of the Selective Repeat ARQ protocol is shown below in the figure.</p>
+                    <img src="https://static.javatpoint.com/tutorial/computer-network/images/sliding-window-protocol-4.png"
+                        alt="Sliding Window Protocol">
+                    <h3 class="h3">Difference between the Go-Back-N ARQ and Selective Repeat ARQ?</h3>
+                    <table class="alt">
+                        <tbody>
+                            <tr>
+                                <th>Go-Back-N ARQ</th>
+                                <th>Selective Repeat ARQ</th>
+                            </tr>
+                            <tr>
+                                <td>If a frame is corrupted or lost in it,all subsequent frames have to be sent again.
+                                </td>
+                                <td>In this, only the frame is sent again, which is corrupted or lost.</td>
+                            </tr>
+                            <tr>
+                                <td>If it has a high error rate,it wastes a lot of bandwidth.</td>
+                                <td>There is a loss of low bandwidth.</td>
+                            </tr>
+                            <tr>
+                                <td>It is less complex.</td>
+                                <td>It is more complex because it has to do sorting and searching as well. And it also
+                                    requires more storage.</td>
+                            </tr>
+                            <tr>
+                                <td>It does not require sorting.</td>
+                                <td>In this, sorting is done to get the frames in the correct order.</td>
+                            </tr>
+                            <tr>
+                                <td>It does not require searching.</td>
+                                <td>The search operation is performed in it.</td>
+                            </tr>
+                            <tr>
+                                <td>It is used more.</td>
+                                <td>It is used less because it is more complex.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="tab-pane fade" id="list-SDLC" role="tabpanel" aria-labelledby="list-SDLC-list">
+
+                    <h3>SDLC</h3>
+                    <p>Synchronous Data Link Control (SDLC) supports a variety of link types and topologies. It can be
+                        used
+                        with point-to-point and multipoint links, bounded and unbounded media, half-duplex and
+                        full-duplex
+                        transmission facilities, and circuit-switched and packet-switched networks.</p>
+
+                    <p>SDLC identifies two types of network nodes: primary and secondary. Primary nodes control the
+                        operation of other stations, called secondary. The primary polls the secondary in a
+                        predetermined
+                        order and secondary can then transmit if they have outgoing data. The primary also sets up and
+                        tears
+                        down links and manages the link while it is operational. Secondary nodes are controlled by a
+                        primary, which means that secondary can send information to the primary only if the primary
+                        grants
+                        permission.</p>
+
+                    <h5>SDLC primaries and secondary can be connected in four basic configurations:</h5>
+
+                    <li>• Point-to-point---Involves only two nodes, one primary and one secondary.</li>
+                    <li>• Multipoint---Involves one primary and multiple secondary.</li>
+                    <li>• Loop---Involves a loop topology, with the primary connected to the first and last secondary.
+                    </li>
+                    Intermediate secondary pass messages through one another as they respond to the requests of the
+                    primary.</li>
+                    <li>• Hub go-ahead---Involves an inbound and an outbound channel. The primary uses the outbound
+                        channel
+                        to communicate with the secondary. The secondary use the inbound channel to communicate with the
+                        primary. The inbound channel is daisy-chained back to the primary through each secondary.</li>
+
+                    <h3> Frame Format</h3>
+
+                    <li>Flag---Initiates and terminates error checking.</li>
+                    <li>Address---Contains the SDLC address of the secondary station, which indicates whether the frame
+                        comes from the primary or secondary. This address can contain a specific address, a group
+                        address,
+                        or a broadcast address. A primary is either a communication source or a destination, which
+                        eliminates the need to include the address of the primary.</li>
+                    <li>Control---Employs three different formats, depending on the type of SDLC frame used:<br>
+
+
+
+
+                        1. Information (I) frame: Carries upper-layer information and some control information. This
+                        frame
+                        sends and receives sequence numbers, and the poll final (P/F) bit performs flow and error
+                        control.
+                        The send-sequence number refers to the number of the frame to be sent next. The receive-sequence
+                        number provides the number of the frame to be received next. Both sender and receiver maintain
+                        send-
+                        and receive-sequence numbers.<br>
+                        A primary station uses the P/F bit to tell the secondary whether it requires an immediate
+                        response.<br>
+                        A secondary station uses the P/F bit to tell the primary whether the current frame is the last
+                        in
+                        its current response.<br>
+                        2. Supervisory (S) frame: Provides control information. An S frame can request and suspend
+                        transmission, reports on status, and acknowledge receipt of I frames. S frames do not have an
+                        information field.<br>
+                        3. Unnumbered (U) frame: Supports control purposes and is not sequenced. A U frame can be used
+                        to
+                        initialize secondary. Depending on the function of the U frame, its control field is 1 or 2
+                        bytes.
+                        Some U frames have an information field.<br></li>
+                    <li>• Data---Contains path information unit (PIU) or exchange identification (XID) information.</li>
+                    <li>• Frame Check Sequence (FCS) ---Precedes the ending flag delimiter and is usually a cyclic
+                        redundancy check (CRC) calculation remainder. The CRC calculation is redone in the receiver. If
+                        the
+                        result differs from the value in the original frame, an error is assumed.</li>
+
+                    <h3>HDLC</h3>
+                    <p>High-Level Data Link Control (HDLC) is a bit-oriented code-transparent synchronous data link
+                        layer
+                        protocol. HDLC provides both connection-oriented and connectionless service. HDLC can be used
+                        for
+                        point to multipoint connections, but is now used almost exclusively to connect one device to
+                        another, using what is known as Asynchronous Balanced Mode (ABM). The original master-slave
+                        modes
+                        Normal Response Mode (NRM) and Asynchronous Response Mode (ARM) are rarely used.</p>
+                </div>
+                <!-- MAC -->
+                <div class="tab-pane fade" id="list-CSMA" role="tabpanel" aria-labelledby="list-CSMA-list">
+
+
+                    <p><strong>MAC Sublayer</strong></p>
+                    <ul>
+                        <li>In the seven-layer OSI model of computer networking, media access control (MAC) data
+                            communication protocol is a sublayer of the data link layer (layer 2).</li>
+                        <li>The MAC sublayer provides addressing and channel access control mechanisms that make it
+                            possible for several terminals or network nodes to communicate within a multiple access
+                            network that incorporates a shared medium, e.g. Ethernet. The hardware that implements the
+                            MAC is referred to as a media access</li>
+                    </ul>
+                    <p> ;</p>
+                    <ul>
+                        <li>The MAC sublayer acts as an interface between the logical link control (LLC) sublayer and
+                            the network's physical The MAC layer emulates a full-duplex logical communication channel in
+                            a multi-point network. This channel may provide unicast, multicast or broadcast
+                            communication service.</li>
+                    </ul>
+                    <p> ;</p>
+                    <h2>MAC Addressing (Media Access Control address)</h2>
+                    <ul>
+                        <li>In a local area network (LAN) or other network, the MAC (Media Access Control) address is
+                            your computer's unique hardware</li>
+                        <li>In a local area network (LAN) or other network, the MAC (Media Access Control) address is
+                            your computer's unique hardware number. (On an Ethernet LAN, it's the same as your Ethernet
+                            address.) When you're connected to the Internet from your computer (or host as the Internet
+                            protocol thinks of it), a correspondence table relates your IP address to your computer's
+                            physical (MAC) address on the</li>
+                    </ul>
+                    <p> ;</p>
+                    <h2>What Is a MAC Address?</h2>
+                    <ul>
+                        <li>The MAC address is a unique value associated with a network adapter. MAC addresses are also
+                            known as hardware addresses or physical They uniquely identify an adapter on a LAN.</li>
+                        <li>MAC addresses are 12-digit hexadecimal numbers (48 bits in length). By convention, MAC
+                            addresses are usually written in one of the following two formats:</li>
+                    </ul>
+                    <p> ; ; ; ; ; ; ; ; ; ; ; ; ; ;
+                        ;MM:MM:MM:SS:SS:SS</p>
+                    <p> ; ; ; ; ; ; ; ; ; ; ; ; ; ;
+                        ;MM-MM-MM-SS-SS-SS</p>
+                    <ul>
+                        <li>The first half of a MAC address contains the ID number of the adapter manufacturer. These
+                            IDs are regulated by an Internet standards body. The second half of a MAC address represents
+                            the serial number assigned to the adapter by the</li>
+                        <li>In the example, 00:A0:C9:14:C8:29 The prefix 00A0C9 indicates the manufacturer is Intel</li>
+                    </ul>
+                    <h2>Why MAC Addresses?</h2>
+                    <ul>
+                        <li>Recall that TCP/IP and other mainstream networking architectures generally adopt the OSI
+                            model. In this model, network functionality is subdivided into layers. MAC addresses
+                            function at the data link layer (layer 2 in the OSI model). They allow computers to uniquely
+                            identify themselves on a network at this relatively low</li>
+                    </ul>
+                    <h2>MAC vs. IP Addressing</h2>
+                    <ul>
+                        <li>Whereas MAC addressing works at the data link layer, IP addressing functions at the network
+                            layer (layer 3). It's a slight oversimplification, but one can think of IP addressing as
+                            supporting the software implementation and MAC addresses as supporting the hardware
+                            implementation of the network stack. The MAC address generally remains fixed and follows the
+                            network device, but the IP address changes as the network device moves from one network to
+                            another</li>
+                        <li>IP networks maintain a mapping between the IP address of a device and its MAC address. This
+                            mapping is known as the ARP cache or ARP ARP, the Address Resolution Protocol, supports the
+                            logic for obtaining this mapping and keeping the cache up to date.</li>
+                        <li>DHCP also usually relies on MAC addresses to manage the unique assignment of IP addresses to
+                            devices. Link MAC Address: <a
+                                href="https://www.youtube.com/watch?v=W52Wt1LDweQ">https://www.youtube.com/watch?v=W52Wt1LDweQ</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <!-- aloha -->
+                <div class="tab-pane fade" id="list-ALOHA" role="tabpanel" aria-labelledby="list-ALOHA-list">
+
+                    <h2>Distributed Random Access Schemes/Contention Schemes: for Data Services (ALOHA and Slotted
+                        ALOHA)</h2>
+                    <ul>
+                        <li>ALOHA: ALOHA is a system for coordinating and arbitrating access to a shared communication
+                            Networks The original system used for ground-based radio broadcasting, but the system has
+                            been implemented in satellite communication systems.</li>
+                        <li>A shared communication system like ALOHA requires a method of handling collisions that occur
+                            when two or more systems attempt to transmit on the channel at the same time.</li>
+                        <li>In the ALOHA system, a node transmits whenever data is available to send. If another node
+                            transmits at the same time, a collision occurs, and the frames that were transmitted are
+                            lost. However, a node can listen to broadcasts on the medium, even its own, and determine
+                            whether the frames were</li>
+                    </ul>
+                    <ul>
+                        <li>Aloha means "Hello". Aloha is a multiple access protocol at the datalink layer and proposes
+                            how multiple terminals access the medium without interference or collision. A scientest
+                            developed a protocol that would increase the capacity of aloha two-fold.</li>
+                        <li>The Slotted Aloha protocol involves dividing the time interval into discrete slots and each
+                            slot interval corresponds to the time period of one frame. This method requires
+                            synchronization between the sending nodes to prevent</li>
+                        <li>
+                            <p>There are two different versions Types of ALOHA:</p>
+                            <ul>
+                                <li>Pure ALOHA</li>
+                                <li>Slotted ALOHA</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p><strong>(i) Pure ALOHA</strong></p>
+                    <ul>
+                        <li>In pure ALOHA, the stations transmit frames whenever they have data to</li>
+                        <li>When two or more stations transmit simultaneously, there is collision and the frames are
+                        </li>
+                        <li>In pure ALOHA, whenever any station transmits a frame, it expects the acknowledgement from
+                            the</li>
+                        <li>If acknowledgement is not received within specified time, the station assumes that the frame
+                            (or acknowledgement) has been</li>
+                        <li>If the frame is destroyed because of collision the station waits for a random amount of time
+                            and sends it This waiting time must be random otherwise same frames will collide again and
+                            again.</li>
+                        <li>Therefore, pure ALOHA dictates that when time-out period passes, each station must wait for
+                            a random amount of time before resending its This randomness will help avoid more
+                            collisions.</li>
+                    </ul>
+                    <h2>(ii) ; Slotted ALOHA</h2>
+                    <ul>
+                        <li>Slotted ALOHA was invented to improve the efficiency of pure ALOHA as chances of collision
+                            in pure ALOHA are very high.</li>
+                        <li>In slotted ALOHA, the time of the shared channel is divided into discrete intervals called
+                        </li>
+                        <li>The stations can send a frame only at the beginning of the slot and only one frame is sent
+                            in each</li>
+                        <li>In slotted ALOHA, if any station is not able to place the frame onto the channel at the
+                            beginning of the slot e. it misses the time slot then the station has to wait until the
+                            beginning of the next time slot.</li>
+                        <li>In slotted ALOHA, there is still a possibility of collision if two stations try to send at
+                            the beginning of the same time</li>
+                    </ul>
+                    <p>Slotted ALOHA still has an edge over pure ALOHA as chances of collision are reduced to one-half.
+                    </p>
+
+
+                </div>
+
+                <div class="tab-pane fade" id="list-Network" role="tabpanel" aria-labelledby="list-Network-list">
+
+                    <p><strong>Network Layer: Need</strong></p>
+                    <p>The network layer is considered the backbone of the OSI Model. It selects and manages the best
+                        logical path for data transfer between nodes. This layer contains hardware devices such as
+                        routers, bridges, firewalls and switches, but it actually creates a logical image of the most
+                        efficient communication route and implements it with a physical medium.</p>
+                    <p>Network layer protocols exist in every host or router. The router examines the header fields of
+                        all the IP packets that pass through it. Internet Protocol and Netware IPX/SPX are the most
+                        common protocols associated with the network layer.</p>
+                    <p>In the OSI model, the network layer responds to requests from the layer above it (transport
+                        layer) and issues requests to the layer below it (data link layer).</p>
+                    <h2>Network Layer: Services</h2>
+                    <p>It translates logical network address into physical address.</p>
+                    <ol>
+                        <li>Routers and gateways operate in the network Mechanism is provided by Network Layer for
+                            routing the packets to final destination.</li>
+                        <li>Connection services are provided including flow control, error control and packet sequence
+                        </li>
+                        <li>Breaks larger packets into small&nbsp;</li>
+                    </ol>
+                    <h2>Fig 4.1 Network Layer</h2>
+                    <p><strong>&nbsp;</strong></p>
+                    <p><strong>There are two types of service that can be provided by the network layer:</strong></p>
+                    <ol>
+                        <li>An unreliable connectionless</li>
+                        <li>A connection-oriented, reliable or unreliable,</li>
+                    </ol>
+                    <h2>Network Layer: Design issues</h2>
+                    <ol>
+                        <li>Store-and-Forward Packet Switching</li>
+                        <li>Services Provided to the Transport Layer</li>
+                        <li>Implementation of Connectionless Service</li>
+                        <li>Implementation of Connection-Oriented Service</li>
+                    </ol>
+                    <h2>a)&nbsp; Store-and-Forward Packet Switching</h2>
+
+                    <p>A host with a packet to send transmits it to the nearest router, either on its own LAN or over a
+                        point-to- pointlink to the carrier. The packet is stored there until it has fully arrived so the
+                        checksum can be verified. Then it is forwarded to the next router along the path until it
+                        reaches the destination host, where it is delivered. This mechanism is store-and-forward packet
+                        switching.</p>
+                    <p>&nbsp;</p>
+                    <ol>
+                        <li><strong>Services Provided to the Transport Layer</strong></li>
+                    </ol>
+                    <p>The network layer services have been designed with the following goals:</p>
+                    <ol>
+                        <li>The services should be independent of the router</li>
+                        <li>The transport layer should be shielded from the number, type, and topology of the routers
+                        </li>
+                        <li>The network addresses should be made available to the transport with a uniform numbering
+                            plan, even across LANs and</li>
+                    </ol>
+                    <p>&nbsp;</p>
+                    <h2>b) Implementation of Connectionless Service</h2>
+                    <p>If connectionless service is offered, packets are injected into the subnet individually and
+                        routed independently of each other. No advance setup is needed. In this context, the packets are
+                        frequently called <strong>datagrams </strong>and the subnet is called a datagram subnet.</p>
+                    <p>&nbsp;</p>
+                    <ol>
+                        <li><strong>Implementation of Connection-Oriented Service</strong></li>
+                    </ol>
+                    <p>If connection-oriented service is used, a path from the source router to the destination router
+                        must be established before any data packets can be sent. This connection is called a <strong>VC
+                            (virtual circuit) </strong>and the subnet is called a virtual-circuit subnet.</p>
+                    <p>The Process is completed in three phase</p>
+                    <p>&nbsp;</p>
+                    <ol>
+                        <li>Establishment</li>
+                        <li>Data transfer</li>
+                        <li>Connection release</li>
+                    </ol>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td width="186">
+                                    <p><strong>Issue</strong></p>
+                                </td>
+                                <td width="264">
+                                    <p><strong>Datagram subnet</strong></p>
+                                </td>
+                                <td width="253">
+                                    <p><strong>Virtual-circuit subnet</strong></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="186">
+                                    <p>Circuit setup</p>
+                                </td>
+                                <td width="264">
+                                    <p>Not Needed.</p>
+                                </td>
+                                <td width="253">
+                                    <p>Required.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="186">
+                                    <p>Addressing</p>
+                                </td>
+                                <td width="264">
+                                    <p>Each packet contains the full source and destination address.</p>
+                                </td>
+                                <td width="253">
+                                    <p>Each packet contains a short VC number.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="186">
+                                    <p>State information</p>
+                                </td>
+                                <td width="264">
+                                    <p>Routers do not hold state information about connections.</p>
+                                </td>
+                                <td width="253">
+                                    <p>Each VC requires router table space per connection.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="186">
+                                    <p>Routing</p>
+                                </td>
+                                <td width="264">
+                                    <p>Each packet is routed independently.</p>
+                                </td>
+                                <td width="253">
+                                    <p>Route chosen when VC is set up: all packets follow it.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="186">
+                                    <p>Effect of router failures</p>
+                                </td>
+                                <td width="264">
+                                    <p>None, except for packets lost during the crash.</p>
+                                </td>
+                                <td width="253">
+                                    <p>All VCs that passed through the failed router are terminated.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="186">
+                                    <p>Quality of services and</p>
+                                    <p>Congestion Control</p>
+                                </td>
+                                <td width="264">
+                                    <p>Difficult.</p>
+                                </td>
+                                <td width="253">
+                                    <p>Easy if enough resources can be</p>
+                                    <p>allocated in advance for each VC.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+                <div class="tab-pane fade" id="list-Routing" role="tabpanel" aria-labelledby="list-Routing-list">
+
+                    <h2>Routing algorithms:</h2>
+                    <p>A routing algorithm is a set of step-by-step operations used to direct Internet traffic
+                        efficiently. When a packet of data leaves its source, there are many different paths it can take
+                        to its destination. The routing algorithm is used to determine mathematically the best path to
+                        take.</p>
+                    <h2>Properties of routing algorithm:</h2>
+                    <p><strong>Correctness: </strong>The routing should be done properly and correctly so that the
+                        packets may reach their proper destination.</p>
+                    <p><strong>Simplicity: </strong>The routing should be done in a simple manner so that the overhead
+                        is as low as possible. With increasing complexity of the routing algorithms the overhead also
+                        increases.</p>
+                    <p><strong>Robustness: </strong>Once a major network becomes operative, it may be expected to run
+                        continuously for years without any failures. The algorithms designed for routing should be
+                        robust enough to handle hardware and software failures and should be able to cope with changes
+                        in the topology and traffic without requiring all jobs in all hosts to be aborted and the
+                        network rebooted every time some router goes down.</p>
+                    <p><strong>Stability: </strong>The routing algorithms should be stable under all possible
+                        circumstances.</p>
+                    <p><strong>Fairness: </strong>Every node connected to the network should get a fair chance of
+                        transmitting their packets. This is generally done on a first come first serve basis.</p>
+                    <p><strong>Optimality: </strong>The routing algorithms should be optimal in terms of throughput and
+                        minimizing mean packet delays. Here there is a trade-off and one has to choose depending on his
+                        suitability.</p>
+                    <p>&nbsp;</p>
+                    <h2>Routing can be grouped into two categories</h2>
+                    <ol>
+                        <li><strong>Adaptive Routing Algorithm: </strong>These algorithms change their routing decisions
+                            to reflect changes in the topology and in traffic as well. These get their routing
+                            information from adjacent routers or from all The optimization parameters are the distance,
+                            number of hops and estimated transit time. This can be further classified as follows:
+                            <ol>
+                                <li><strong>Centralized: </strong>In this type some central node in the network gets
+                                    entire information about the network topology, about the traffic and about other
+                                    nodes. This then transmits this information to the respective routers. The advantage
+                                    of this is that only one node is required to keep the information. The disadvantage
+                                    is that if the central node goes down the entire network is down, e. single point of
+                                    failure.</li>
+                                <li><strong>Isolated: </strong>In this method the node decides the routing without
+                                    seeking information from other The sending node does not know about the status of a
+                                    particular link. The disadvantage is that the packet may be send through a congested
+                                    route resulting in a delay. Some examples of this type of algorithm for routing are:
+                                </li>
+                            </ol>
+                        </li>
+                        <li><strong>Hot Potato: </strong>When a packet comes to a node, it tries to get rid of it as
+                            fast as it can, by putting it on the shortest output queue without regard to where that link
+                            leads. A variation of this algorithm is to combine static routing with the hot potato
+                            algorithm. When a packet arrives, the routing algorithm takes into account both the static
+                            weights of the links and the queue</li>
+                        <li><strong>Backward Learning: </strong>In this method the routing tables at each node gets
+                            modified by information from the incoming packets. One way to implement backward learning is
+                            to include the identity of the source node in each packet, together with a hop counter that
+                            is incremented on each When a node receives a packet in a particular line, it notes down the
+                            number of hops it has taken to reach it from the source node. If the previous value of hop
+                            count stored in the node is better than the current one then nothing is done but if the
+                            current value is better than the value is updated for future use. The problem with this is
+                            that when the best route goes down then it cannot recall the second best route to a
+                            particular node. Hence all the nodes have to forget the stored information periodically and
+                            start all over again.
+                            <ol start="3">
+                                <li><strong>Distributed: </strong>In this the node receives information from its
+                                    neighbouring nodes and then takes the decision about which way to send the packet.
+                                    The disadvantage is that if in between the interval it receives information and
+                                    sends the packet something changes then the packet may be</li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <p>&nbsp;</p>
+                    <ol start="2">
+                        <li><strong>Non-Adaptive Routing Algorithm: </strong>These algorithms do not base their routing
+                            decisions on measurements and estimates of the current traffic and topology. Instead the
+                            route to be taken in going from one node to the other is computed in advance, off-line, and
+                            downloaded to the routers when the network is This is also known as static routing. This can
+                            be further classified as:</li>
+                    </ol>
+                    <ol>
+                        <li><strong>Flooding: </strong>Flooding adapts the technique in which every incoming packet is
+                            sent on every outgoing line except the one on which it arrived. One problem with this method
+                            is that packets may go in a As a result of this a node may receive several copies of a
+                            particular packet which is undesirable. Some techniques adapted to overcome these problems
+                            are as follows:
+                            <ol>
+                                <li><strong>Sequence Numbers: </strong>Every packet is given a sequence number. When a
+                                    node receives the packet it sees its source address and sequence number. If the node
+                                    finds that it has sent the same packet earlier then it will not transmit the packet
+                                    and will just discard</li>
+                                <li><strong>Hop Count: </strong>Every packet has a hop count associated with This is
+                                    decremented (or incremented) by one by each node which sees it. When the hop count
+                                    becomes zero (or a maximum possible value) the packet is dropped.</li>
+                                <li><strong>Spanning Tree: </strong>The packet is sent only on those links that lead to
+                                    the destination by constructing a spanning tree routed at the source. This avoids
+                                    loops in transmission but is possible only when all the intermediate nodes have
+                                    knowledge of the network</li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <p>Flooding is not practical for general kinds of applications. But in cases where high degree of
+                        robustness is desired such as in military applications, flooding is of great help.</p>
+                    <ol start="2">
+                        <li><strong>Random Walk: </strong>In this method a packet is sent by the node to one of its
+                            neighbours randomly. This algorithm is highly robust. When the network is highly
+                            interconnected, this algorithm has the property of making excellent use of alternative
+                            routes. It is usually implemented by sending the packet onto the least queued</li>
+                    </ol>
+
+                    <p><strong>Broadcast Routing:</strong></p>
+                    <p>Delivering a packet sent from a source node to all other nodes in the network. By default, the
+                        broadcast packets are not routed and forwarded by the routers on any network. Routers create
+                        broadcast domains. But it can be configured to forward broadcasts in some special cases. A
+                        broadcast message is destined to all network devices.</p>
+                    <p>Broadcast routing can be done in two ways (algorithm):</p>
+                    <ul>
+                        <li>A router creates a data packet and then sends it to each host one by one. In this case, the
+                            router creates multiple copies of single data packet with different destination addresses.
+                            All packets are sent as unicast but because they are sent to all, it simulates as if router
+                            is</li>
+                        <li>This method consumes lots of bandwidth and router must destination address of each</li>
+                        <li>Secondly, when router receives a packet that is to be broadcasted, it simply floods those
+                            packets out of all All routers are configured in the same way.</li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>This method is easy on router's CPU but may cause the problem of duplicate packets received from
+                        peer routers.</p>
+                    <p>Reverse path forwarding is a technique, in which router knows in advance about its predecessor
+                        from where it should receive broadcast. This technique is used to detect and discard duplicates.
+                    </p>
+                    <p>&nbsp;</p>
+                    <h2>Multicast Routing:</h2>
+                    <p>Multicast routing is special case of broadcast routing with significance difference and
+                        challenges. In broadcast routing, packets are sent to all nodes even if they do not want it. But
+                        in Multicast routing, the data is sent to only nodes which wants to receive the packets.</p>
+                    <p>The router must know that there are nodes, which wish to receive multicast packets (or stream)
+                        then only it should forward. Multicast routing works spanning tree protocol to avoid looping.
+                        Multicast routing also uses reverse path Forwarding technique, to detect and discard duplicates
+                        and loops.</p>
+                    <p>Unicast routing protocols use graphs while Multicast routing protocols use trees, i.e. spanning
+                        tree to avoid loops. The optimal tree is called shortest path spanning tree.</p>
+                    <ul>
+                        <li><strong>DVMRP</strong>- Distance Vector Multicast Routing Protocol</li>
+                        <li><strong>MOSPF</strong>- Multicast Open Shortest Path First</li>
+                        <li><strong>CBT</strong>- Core Based Tree</li>
+                        <li><strong>PIM</strong>- Protocol independent Multicast</li>
+                    </ul>
+                    <p>Protocol Independent Multicast is commonly used now. It has two flavour&rsquo;s:</p>
+                    <h2>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PIM Dense Mode</h2>
+                    <p>This mode uses source-based trees. It is used in dense environment such as LAN.</p>
+                    <h2>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PIM Sparse Mode</h2>
+                    <p>This mode uses shared trees. It is used in sparse environment such as WAN.</p>
+
+
+                </div>
+
+                <div class="tab-pane fade" id="list-Optimality" role="tabpanel" aria-labelledby="list-Optimality-list">
+
+                    <h2>The Optimality Principle</h2>
+                    <p>The optimality principle states that if router J is on the optimal path from router I to router
+                        K, then the optimal path from J to K also falls along the same route. As a consequence of that
+                        principle, we can see that the set of optimal routes from all sources to a given destination
+                        form a tree rooted at the destination. Such tree is called a <strong>sink tree.\</strong></p>
+                    <p>&nbsp;</p>
+                    <h2>Shortest Path Algorithm (Least Cost Routing algorithm)</h2>
+                    <ul>
+                        <li>In this the path length between each node is measured as a function of distance, Bandwidth,
+                            average traffic, communication cost, mean queue length, measured delay</li>
+                        <li>By changing the weighing function, the algorithm then computes the shortest path measured
+                            according to any one of a number of criteria or a combination of</li>
+                        <li>For this a graph of subnet is With each node of graph representing a router and each arc of
+                            the graph representing a communication link. Each link has a cost associated with it.</li>
+                    </ul>
+                    <p>Two algorithms for computing the shortest path between two nodes of a graph are:-</p>
+                    <ol>
+                        <li>Dijkstra&rsquo;s
+                            Algorithm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            2. Bellnam-Ford Algorithm</li>
+                    </ol>
+                    <p>&nbsp;</p>
+                    <h2>1.&nbsp; Dijkstra's algorithm:</h2>
+                    <ol>
+                        <li>Compute the least cost path from one node to all other nodes in the</li>
+                        <li>Iterative algorithm - After the kth iteration, the least cost paths for k destination nodes
+                            are found.</li>
+                        <li>D(v): cost of the least cost path from source node to destination v</li>
+                        <li>p(v): previous node of v along the least-cost path from</li>
+                        <li>N&rsquo;: set of nodes to which the least-cost path is</li>
+                    </ol>
+                    <p>Following are the detailed steps.</p>
+                    <p><em>Input: </em>Graph and a source vertex <em>src</em></p>
+                    <p><em>Output: </em>Shortest distance to all vertices from <em>src</em>. If there is a negative
+                        weight cycle, then shortest distances are not calculated, negative weight cycle is reported.</p>
+                    <ul>
+                        <li>This step initializes distances from source to all vertices as infinite and distance to
+                            source itself as Create an array dist[] of size |V| with all values as infinite except
+                            dist[src] where src is source vertex.</li>
+                        <li>This step calculates shortest Do following |V|-1 times where |V| is the number of vertices
+                            in given graph.
+                            <ol>
+                                <li>Do following for each edge u-v</li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <p>If dist[v] &gt;dist[u] + weight of edge uv, then update dist[v] dist[v] = dist[u] + weight of
+                        edge uv</p>
+                    <ul>
+                        <li>This step reports if there is a negative weight cycle in Do following for each edge u-v</li>
+                    </ul>
+                    <p>If dist[v] &gt;dist[u] + weight of edge uv, then &ldquo;Graph contains negative weight
+                        cycle&rdquo;</p>
+                    <p>The idea of step 3 is, step 2 guarantees shortest distances if graph doesn&rsquo;t contain
+                        negative weight cycle. If we iterate through all edges one more time and get a shorter path for
+                        any vertex, then there is a negative weight cycle</p>
+                    <p><strong><em>How does this work? </em></strong>Like other Dynamic Programming Problems, the
+                        algorithm calculates shortest paths in bottom-up manner. It first calculates the shortest
+                        distances which have at-most one edge in the path. Then, it calculates shortest paths with
+                        at-most 2 edges, and so on. After the i-th iteration of outer loop, the shortest paths with at
+                        most i edges are calculated. There can be maximum |V| &ndash; 1 edge in any simple path that is
+                        why the outer loop runs |v| &ndash; 1 times. The idea is, assuming that there is no negative
+                        weight cycle, if we have calculated shortest paths with at most i edges, then an iteration over
+                        all edges guarantees to give shortest path with at-most (i+1) edges</p>
+                    <h2>Example</h2>
+                    <p>let us understand the algorithm with following example graph. The images are taken from this
+                        source.</p>
+                    <p>Let the given source vertex be 0. Initialize all distances as infinite, except the distance to
+                        source itself. Total number of vertices in the graph is 5, so <em>all edges must be processed 4
+                            times.</em></p>
+                </div>
+
+                <div class="tab-pane fade" id="list-IPv4" role="tabpanel" aria-labelledby="list-IPv4-list">
+
+                    <p>&nbsp;</p>
+                    <h2 style="text-align: left;" align="left"><span lang="EN-US">IPv4 &amp; IPv6:</span></h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td width="63">
+                                    <p><strong>Sl. No.</strong></p>
+                                </td>
+                                <td width="324">
+                                    <p><strong>IPv4</strong></p>
+                                </td>
+                                <td width="314">
+                                    <p><strong>IPv6</strong></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>1</p>
+                                </td>
+                                <td width="324">
+                                    <p>Addresses are 32 bits (4 bytes) in length.</p>
+                                </td>
+                                <td width="314">
+                                    <p>Addresses are 128 bits (16 bytes) in length.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>2</p>
+                                </td>
+                                <td width="324">
+                                    <p>Address (A) resource records in DNS to map host names to IPv4 addresses.</p>
+                                </td>
+                                <td width="314">
+                                    <p>Address (AAAA) resource records in DNS to map host names to IPv6 addresses.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>3</p>
+                                </td>
+                                <td width="324">
+                                    <p>Pointer (PTR) resource records in the IN- ADDR.ARPA DNS domain to map IPv4
+                                        addresses to host names.</p>
+                                </td>
+                                <td width="314">
+                                    <p>Pointer (PTR) resource records in the IP6.ARPA DNS domain to map IPv6 addresses
+                                        to host names.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>4</p>
+                                </td>
+                                <td width="324">
+                                    <p>IPSec is optional and should be supported externally</p>
+                                </td>
+                                <td width="314">
+                                    <p>IPSec support is not optional</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>5</p>
+                                </td>
+                                <td width="324">
+                                    <p>Header does not identify packet flow for QoS handling by routers</p>
+                                </td>
+                                <td width="314">
+                                    <p>Header contains Flow Label field, which Identifies packet flow for QoS handling
+                                        by router.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>6</p>
+                                </td>
+                                <td width="324">
+                                    <p>Both routers and the sending host fragment packets.</p>
+                                </td>
+                                <td width="314">
+                                    <p>Routers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        do&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; not&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        support
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        packet fragmentation.&nbsp;
+                                        Sending&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        host&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fragments</p>
+                                    <p>packets</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>7</p>
+                                </td>
+                                <td width="324">
+                                    <p>Header includes a checksum.</p>
+                                </td>
+                                <td width="314">
+                                    <p>Header does not include a checksum.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>8</p>
+                                </td>
+                                <td width="324">
+                                    <p>ARP uses broadcast ARP request to resolve IP to MAC/Hardware address.</p>
+                                </td>
+                                <td width="314">
+                                    <p>Multicast Neighbour Solicitation messages resolve IP addresses to MAC addresses.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>9</p>
+                                </td>
+                                <td width="324">
+                                    <p>Internet Group Management Protocol (IGMP) manages membership in local subnet
+                                        groups</p>
+                                </td>
+                                <td width="314">
+                                    <p>Multicast Listener Discovery (MLD) messages manage membership in local subnet
+                                        groups.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>10</p>
+                                </td>
+                                <td width="324">
+                                    <p>Broadcast addresses are used to send traffic to all nodes on a subnet.</p>
+                                </td>
+                                <td width="314">
+                                    <p>IPv6&nbsp;&nbsp;&nbsp; uses&nbsp;&nbsp;&nbsp; a&nbsp;&nbsp;&nbsp;
+                                        link-local&nbsp;&nbsp; scope&nbsp;&nbsp;&nbsp; all-nodes multicast address.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>11</p>
+                                </td>
+                                <td width="324">
+                                    <p>Configured either manually or through DHCP.</p>
+                                </td>
+                                <td width="314">
+                                    <p>Does not require manual configuration or DHCP.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="63">
+                                    <p>12</p>
+                                </td>
+                                <td width="324">
+                                    <p>Must support a 576-byte packet size (possibly fragmented).</p>
+                                </td>
+                                <td width="314">
+                                    <p>Must&nbsp;&nbsp; support&nbsp;&nbsp; a&nbsp;&nbsp; 1280-byte&nbsp;&nbsp;&nbsp;
+                                        packet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; size
+                                        (without fragmentation).</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+                <div class="tab-pane fade" id="list-Packet" role="tabpanel" aria-labelledby="list-Packet-list">
+
+                    <h2>Packet Forwarding:</h2>
+                    <ul>
+                        <li>Packet forwarding is done when uIP receives a packet that has a destination IP address that
+                            does not match any of the IP addresses of the A node typically has multiple addresses: one
+                            or more <a
+                                href="https://www.sciencedirect.com/topics/computer-science/unicast-address">unicast</a>
+                            <a href="https://www.sciencedirect.com/topics/computer-science/unicast-address">addresses
+                            </a>and at least one broadcast or <a
+                                href="https://www.sciencedirect.com/topics/computer-science/multicast-address">multicast
+                                address</a>.
+                        </li>
+                        <li>Packets that do not match the addresses should be forwarded to a <a
+                                href="https://www.sciencedirect.com/topics/computer-science/neighboring-node">neighboring
+                                node</a>, either because the address matches that of the neighbor or because the
+                            neighbor has a route to the destination</li>
+                        <li>Packet forwarding occurs only when uIP has been configured to be a router. The packet
+                            forwarding mechanism is then invoked as part of the output</li>
+                        <li>The packet forwarding mechanism is modular and does not specify any particular routing
+                            mechanism to be Rather, a routing mechanism will register itself with the forwarding module
+                            upon startup. For every packet, the forwarding mechanism asks the routing module to look up
+                            the destination IP address and return the address to the next-hop neighbor.</li>
+                        <li>The routing module may implement this any way it wants by using a table of destination
+                            addresses, a table of <a
+                                href="https://www.sciencedirect.com/topics/computer-science/network-prefix">network
+                                prefixes</a>, a <a
+                                href="https://www.sciencedirect.com/topics/computer-science/hash-table">hash table
+                            </a>of addresses, a cache of the recently used routes, or any other way it finds The routing
+                            protocol may perform a route discovery for each address not found in its cache.</li>
+                    </ul>
+                    <p>By separating packet forwarding and packet routing, uIP can adapt a wide range of requirements
+                        such as routing performance and memory requirements, as well as take advantage of future
+                        development in routing protocols. A system with strict memory requirements and low routing
+                        performance requirements may use a <a
+                            href="https://www.sciencedirect.com/topics/computer-science/cache-configuration">cache
+                            configuration </a>that prompts frequent network route discoveries, whereas a system
+                        withstrict requirements on routing performance but lax memory requirements may choose a larger
+                        cache</p>
+                    <p>&nbsp;</p>
+                    <ul>
+                        <li><strong>Fragmentation:</strong></li>
+                        <li>Fragmentation is the process of breaking a packet into smaller pieces so that they will fit
+                            into the frames of the underlying network. The receiving system reassembles the pieces into
+                            the original packets. The term MTU (maximum transmission unit) refers to the maximum amount
+                            of data that can travel in a frame.</li>
+                        <li>Different networks have different MTU sizes, so packets may need to be fragmented in order
+                            to fit within the frames of the network that they</li>
+                        <li>Internetworking protocols such as IP use fragmentation because each of the networks that a
+                            packet may travel over could have a different frame size. Fragmentation occurs at routers
+                            that connect two networks with different MTUs.</li>
+                        <li>While it is possible to design an internal network with the same MTU size, this is not an
+                            option on the Internet, which includes thousands of independently managed interconnected
+                            Fragmentation is always undesirable because it reduces performance. In fact, fragmentation
+                            is not allowed in IPv6. Large packets are always preferable.</li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>**Reassembly is the reverse of segmentation. Protocol Data Units are put back together in the
+                        correct order to reassemble a stream of data in its original form.**</p>
+
+
+                </div>
+
+                <div class="tab-pane fade" id="list-TransportLayer" role="tabpanel"
+                    aria-labelledby="list-TransportLayer-list">
+
+                    <p><strong>Transport Layer: Design Issues</strong></p>
+                    <ul>
+                        <li>Accepting data from Session layer split it into segments and send to the network</li>
+                        <li>Ensure correct delivery of data with</li>
+                        <li>Isolate upper layers from the technological</li>
+                        <li>Error control and flow</li>
+                    </ul>
+                    <h2>UDP: Header Format</h2>
+                    <p>The User Datagram Protocol (UDP) is simplest Transport Layer communication protocol available of
+                        the TCP/IP protocol suite. It involves minimum amount of communication mechanism. It is said to
+                        be an unreliable transport protocol but it uses IP services which provides best effort delivery
+                        mechanism.</p>
+                    <p>In this, the receiver does not generate an acknowledgement of packet received and in turn, the
+                        sender does not wait for any acknowledgement of packet sent. This shortcoming makes this
+                        protocol unreliable as well as easier on processing.</p>
+                    <h2>Features</h2>
+                    <ul>
+                        <li>UDP is used when acknowledgement of data does not hold any</li>
+                        <li>UDP is good protocol for data flowing in one</li>
+                        <li>UDP is simple and suitable for query based</li>
+                        <li>UDP is not connection</li>
+                        <li>UDP does not provide congestion control</li>
+                        <li>UDP does not guarantee ordered delivery of</li>
+                        <li>UDP is</li>
+                        <li>UDP is suitable protocol for streaming applications such as VoIP, multimedia</li>
+                    </ul>
+                    <h2>0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp;15 16&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; 31</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td width="192">
+                                    <p><strong>16-Bit Source Port</strong></p>
+                                </td>
+                                <td width="193">
+                                    <p><strong>16-Bit Destination Port</strong></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="192">
+                                    <p><strong>16- Bit UDP Length</strong></p>
+                                </td>
+                                <td width="193">
+                                    <p><strong>16- Bit UDP Checksum</strong></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" width="385">
+                                    <p><strong>Data (If Any)</strong></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Fig 5.1 UDP Header Format The UDP header consists of four fields each of 2 bytes in
+                            length:</strong></p>
+                    <p><strong>Source Port </strong>(UDP packets from a client use this as a service access point (SAP)
+                        to indicate the session on the local client that originated the packet. UDP packets from a
+                        server carry the server SAP in this field) <strong>Destination Port </strong>(UDP packets from a
+                        client use this as a service access point (SAP) to indicate the service required from the remote
+                        server. UDP packets from a server carry the client SAP in this field)</p>
+                    <p><strong>UDP length </strong>(The number of bytes comprising the combined UDP header information
+                        and payload data) <strong>UDP Checksum </strong>(A checksum to verify that the end to end data
+                        has not been corrupted by routers or bridges in the network or by the processing in an end
+                        system. The algorithm to compute the checksum is the Standard Internet Checksum algorithm. This
+                        allows the receiver to verify that it was the intended destination of the packet, because it
+                        covers the IP addresses, port numbers and protocol number, and it verifies that the packet is
+                        not truncated or padded, because it covers the size field. Therefore, this protects an
+                        application against receiving corrupted payload data in place of, or in addition to, the data
+                        that was sent. In the cases where this check is not required, the value of 0x0000 is placed in
+                        this field, in which case the data is not checked by the receiver.</p>
+                    <h2>Pre-Segment Checksum</h2>
+                    <ul>
+                        <li>Checksum is a simple error detection mechanism to determine the integrity of the data
+                            transmitted over a network. Communication protocols like TCP/IP/UDP implement this scheme in
+                            order to determine whether the received data is corrupted along the network.</li>
+                        <li>The sender of an IPv4 datagram would compute the checksum value based on the data and embed
+                            it in the frame. The receiver would also compute the checksum locally and based on the
+                            result ascertain the data integrity. Similarly the TCP/UDP data which forms the payload for
+                            the IP datagram would have its checksum computed and embedded as a part of the TCP/UDP</li>
+                    </ul>
+                    <p>In an attempt to improve performance and to assist drivers in ensuring data integrity, checksum
+                        computation is increasingly being done in hardware. The checksum offload feature can be
+                        implemented as a combination of hardware and software functions - the hardware assists the
+                        driver in completing the checksum computation.</p>
+                    <p>This functionality can be enabled in Asics and disabled in the existing drivers (TCP/IP protocol
+                        stack) easily.</p>
+                    <p><strong>Unicast/Multicast Real-Time Traffic</strong></p>
+                    <p>Data is transported over a network by three simple methods i.e. Unicast, Broadcast, and
+                        Multicast.</p>
+                    <ul>
+                        <li><strong>Unicast</strong>: from one source to one destination e. One-to-One</li>
+                        <li><strong>Broadcast</strong>: from one source to all possible destinations e. One-to-All</li>
+                        <li><strong>Multicast</strong>: from one source to multiple destinations stating an interest in
+                            receiving the traffic i.e. One- to-Many</li>
+                    </ul>
+                    <p><strong>Note</strong>: There is no separate classification for Many-to-Many applications, for
+                        example, video conferencing or online gaming, where multiple sources for the same receiver and
+                        where receivers often are double as sources. This service model works on the basis of
+                        one-to-many multicast and for that reason requires no unique protocol. The original multicast
+                        design i.e. RFC 1112, supports both the ASM (any-source-multicast) based on many-to-many service
+                        model and the SSM (source specific multicast) based on a one-to-many model.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Unicast</strong></p>
+                    <ol>
+                        <li>Traffic is sent from one host to A replica of each packet in the data stream goes to every
+                            host that requests it.
+                            <p>&nbsp;</p>
+                            <ol>
+                                <li>The implementation of unicast applications is a bit easy as they use
+                                    well-established IP protocols; however, they are particularly incompetent when there
+                                    is a need for many-to-many In the meantime, all packets in the data stream must be
+                                    sent to every host requesting access to the data stream. However, this type of
+                                    transmission is ineffective in terms of both network and server resource as it
+                                    equally presents obvious scalability issues.</li>
+                                <li>This is a one-to-one connection between the client and the Unicast uses IP provision
+                                    techniques such as TCP (transmission control protocol) and UDP (user datagram
+                                    protocol), which are session-based protocols. Once a Windows media player client
+                                    connects via unicast to a Windows media server that client gets a straight
+                                    connection to the server. Every unicast client that connects to the server takes up
+                                    extra bandwidth. For instance, if you have 10 clients all performing 100 Kbps
+                                    (kilobits per second) streams, it means those clients taking up 1,000 Kbps. But you
+                                    a have single client using the 100 Kbps stream, only 100 Kbps is being used.</li>
+                            </ol>
+                            <h2>Multicast</h2>
+                            <p>Multicast lets server&rsquo;s direct single copies of data streams that are then
+                                simulated and routed to hosts that</p>
+                            <p>request it.</p>
+                            <p>Hence, rather than sending thousands of copies of a streaming event, the server instead
+                                streams a single flow that is then directed by routers on the network to the hosts that
+                                have specified that they need to get the stream. This removes the requirement to send
+                                redundant traffic over the network and also be likely to reduce CPU load on systems,
+                                which are not using the multicast system, yielding important enhancement to efficiency
+                                for both server and network.</p>
+                            <h2>Multicast is true broadcast?</h2>
+                            <p>The multicast source depends on multicast-enabled routers to forward the packets to all
+                                clients&rsquo; subnets that have clients listening. However, there is no direct
+                                affiliation between clients and Windows media server. The Windows media server creates
+                                an &ldquo;.nsc&rdquo; (NetShow channel) file when the multicast station is first formed.
+                                Usually, the .nsc file is sent to the client from a web server. This file holds data
+                                that the Windows media player requires to listen for the multicast. This is quite same
+                                to fine-tuning a station on a radio. Every client which eavesdrops to the multicast
+                                includes no extra overhead on the server. In fact, the server sends out only single
+                                stream per multicast station. The equal load is experienced on the server whether only a
+                                single client or multiple clients are listening.</p>
+                            <h2>Important note</h2>
+                            <p>Multicast on the Internet is usually not a concrete solution because only small sections
+                                of the Internet are enabled with Multicast. On the other hand, in corporate environments
+                                where all routers are multicast- enabled can save quite a bit of bandwidth.</p>
+                            <h2>So what is the difference between Multicast and Unicast?</h2>
+                            <p>There are two central methods that Windows Media servers use to send data to Windows
+                                Media Player</p>
+                            <p>clients i.e. Unicast and Multicast&hellip;</p>
+                            <p>Multicast or Unicast both can be used for broadcasting live video or audio.</p>
+                        </li>
+                    </ol>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+
+                </div>
+
+                <div class="tab-pane fade" id="list-TCP" role="tabpanel"
+                    aria-labelledby="list-TCP-list">
+                
+                    <h2>TCP</h2>
+                    <p>TCP is a unicast connection-oriented protocol. Before either end can send data to the other, a connection must be established between them. TCP detects and repairs essentially all the data transfer problems that may be introduced by packet loss, duplication, or errors at the IP layer (or below).</p>
+                    <p>Because of its management of connection state (information about the connection kept by both endpoints), TCP is a considerably more complicated protocol than UDP.</p>
+                    <p>A TCP connection is defined to be a 4-tuple consisting of two IP addresses and two port numbers. It is a pair of endpoints or sockets where each endpoint is identified by an (IP address, port number) pair.</p>
+                    <p>A connection typically goes through three phases:</p>
+                    <ul>
+                    <li>Setup</li>
+                    <li>Data transfer (called established)</li>
+                    <li>Teardown (closing).</li>
+                    </ul>
+                    <p>Some of the difficulty in creating a robust TCP implementation is handling all of the transitions between and among these phases correctly.</p>
+                    <h2>Connection Management:</h2>
+                    <p>A connection typically goes through three phases:</p>
+                    <ul>
+                    <li>Setup</li>
+                    <li>Data transfer (called established)</li>
+                    <li>Teardown (closing).</li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Reliability of Data Transfers</strong></p>
+                    <p>Let us consider the problem of reliable data transfer in a general context. This is appropriate since the problem of implementing reliable data transfer occurs not only at the transport layer, but also at the link layer and the application layer as well. The general problem is thus of central importance to networking. Indeed, if one had to identify a ``top-10'' list of fundamentally important problems in all of networking, this would be a top candidate to lead that list.</p>
+                    <p>It is the responsibility of a <strong>reliable data transfer protocol </strong>to implement this service abstraction. This task is made difficult by the fact that layer below the reliable data transfer protocol may be unreliable. For example, TCP is a reliable data transfer protocol that is implemented on top of an unreliable (IP) end-end network layer. More generally, the layer beneath the two reliably-communicating endpoints might consist of a single physical link (e.g., as in the case of a link-level data transfer protocol) or a global internetwork (e.g., as in the case of a transport-level protocol). For our purposes, however, we can view this lower layer simply as an unreliable point-to-point channel.</p>
+                    <p>&nbsp;</p>
+                    <ul>
+                    <li>The internet network layer provides only best effort service with no guarantee that packets arrive at their Also, since each packet is routed individually it is possible that packets are received out of order. For connection-oriented service provided by TCP, it is necessary to have a reliable data transfer (RDT) protocol to ensure delivery of all packets and to enable the receiver to deliver the packets in order to its application layer.</li>
+                    <li>A simple alternating bit RDT protocol can be designed using some basic This protocol is also known as a stop-and-wait protocol: after sending each packet the sender stops and waits for feedback from the receiver indicating that the packet has been received.</li>
+                    <li>Stop-and-wait RDT protocols have poor performance in a long-distance connection. At best, the sender can only transmit one packet per round-trip time. For a 1000 mile connection this amounts to approximately 1 packet (about 1500 bytes) every 20 ms that results in a pathetic 75 KB per second</li>
+                    <li>To improve transmission rates, a realistic RDT protocol must use This allows the sender to have a large number of packets "in the pipeline". This phrase refers to packets that have been sent but whose receipt has not yet verified by the receiver.</li>
+                    </ul>
+                    <h2>TCP Flow Control</h2>
+                    <p>TCP is the protocol that guarantees we can have a reliable communication channel over an unreliable network. When we send data from a node to another, packets can be lost, they can arrive out of order, the network can be congested or the receiver node can be overloaded. When we are writing an application, though, we usually don&rsquo;t need to deal with this complexity, we just write some data to a socket and TCP makes sure the packets are delivered correctly to the receiver node. Another important service that TCP provides is what is called <em>Flow Control</em>. Let&rsquo;s talk about what that means and how TCP does its magic.</p>
+                    <h2>What is Flow Control (and what it&rsquo;s not)</h2>
+                    <p>Flow Control basically means that TCP will ensure that a sender is not overwhelming a receiver by sending packets faster than it can consume. It&rsquo;s pretty similar to what&rsquo;s normally called <em>Back pressure </em>in the Distributed Systems literature. The idea is that a node receiving data will send some kind of feedback to the node sending the data to let it know about its current condition.</p>
+                    <p>It&rsquo;s important to understand that this is <strong>not </strong>the same as <em>Congestion Control</em>. Although there&rsquo;s some overlap between the mechanisms TCP uses to provide both services, they are distinct features. Congestion control is about preventing a node from overwhelming the network (i.e. the links between two nodes), while Flow Control is about the end-node.</p>
+                    <h2>How it works</h2>
+                    <p>When we need to send data over a network, this is normally what happens.</p>
+                    <p>The sender application writes data to a socket, the transport layer (in our case, TCP) will wrap this data in a segment and hand it to the network layer (e.g. IP), that will somehow route this packet to the receiving node. On the other side of this communication, the network layer will deliver this piece of data to TCP, that will make it available to the receiver application as an exact copy of the data sent, meaning it will not deliver packets out of order, and will wait for a retransmission in case it notices a gap in the byte stream. If we zoom in, we will see something like this.&nbsp;</p>
+                    <p>TCP stores the data it needs to send in the send buffer<em>, </em>and the data it receives in the receive buffer. When the application is ready, it will then read data from the receive buffer.</p>
+                    <p>Flow Control is all about making sure we don&rsquo;t send more packets when the receive buffer is already full, as the receiver wouldn&rsquo;t be able to handle them and would need to drop these packets.</p>
+                    <p>To control the amount of data that TCP can send, the receiver will advertise its Receive Window (rwnd), that is, the spare room in the receive buffer.</p>
+                    <p>Every time TCP receives a packet, it needs to send an ack message to the sender, acknowledging it received that packet correctly, and with this ack message it sends the value of the current receive window, so the sender knows if it can keep sending data.</p>
+                    <h2>TCP Congestion Control</h2>
+                    <p>TCP uses a congestion window and a congestion policy that avoid congestion. Previously, we assumed that only receiver can dictate the sender&rsquo;s window size. We ignored another entity here, the network. If the network cannot deliver the data as fast as it is created by the sender, it must tell the sender to slow down. In other words, in addition to the receiver, the network is a second entity that determines the size of the sender&rsquo;s window.</p>
+                    <h2>Congestion policy in TCP &ndash;</h2>
+                    <ol>
+                    <li>Slow Start Phase: starts slowly increment is exponential to threshold</li>
+                    <li>Congestion Avoidance Phase: After reaching the threshold increment is by 1</li>
+                    <li>Congestion Detection Phase: Sender goes back to Slow start phase or Congestion avoidance phase. <strong>Slow Start Phase: exponential increment &ndash; </strong>In this phase after every RTT the congestion window size increments</li>
+                    </ol>
+                    <p>Initially cwnd = 1</p>
+                    <p>After 1 RTT, cwnd = 2^ (1) = 2</p>
+                    <p>2 RTT, cwnd = 2^ (2) = 4</p>
+                    <p>3 RTT, cwnd = 2^ (3) = 8</p>
+                    <p><strong>Congestion Avoidance Phase: additive increment &ndash; </strong>This phase starts after the threshold value also denoted as ssthresh. The size of cwnd(congestion window) increases additive. After each RTT cwnd = cwnd</p>
+                    <p>+ 1.</p>
+                    <p>Initially cwnd = i</p>
+                    <p>After 1 RTT, cwnd = i+1 2 RTT, cwnd = i+2</p>
+                    <p>3 RTT, cwnd = i+3</p>
+                    <p><strong>Congestion Detection Phase: multiplicative decrement &ndash; </strong>If congestion occurs, the congestion window size is decreased. The only way a sender can guess that congestion has occurred is the need to retransmit a segment. Retransmission is needed to recover a missing packet which is assumed to have been dropped by a router due to congestion. Retransmission can occur in one of two cases: when the RTO timer times out or when three duplicate ACKs are received.</p>
+                    <ul>
+                    <li><strong>Case 1: Retransmission due to Timeout &ndash; </strong>In this case congestion possibility is</li>
+                    <li>ssthresh is reduced to half of the current window</li>
+                    <li>Set cwnd = 1</li>
+                    <li>Start with slow start phase</li>
+                    <li><strong>Case 2: Retransmission due to 3 Acknowledgement duplicates &ndash; </strong>In this case congestion possibility is</li>
+                    <li>ssthresh value reduces to half of the current window</li>
+                    <li>Set cwnd=</li>
+                    <li>Start with congestion avoidance</li>
+                    </ul>
+                    <p><strong>Example &ndash; </strong>Assume a TCP protocol experiencing the behaviour of slow start. At 5th transmission round with a threshold (ssthresh) value of 32 goes into congestion avoidance phase and continues till 10th transmission. At 10th transmission round, 3 duplicate ACKs are received by the receiver and enter into additive increase mode. Timeout occurs at 16th transmission round. Plot the transmission round (time) vs congestion window size of TCP segments.</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p><strong>TCP Header Format</strong></p>
+                    <p>Each TCP header has ten required fields totalling 20 bytes (160 bits) in size.</p>
+                    <p>They can also optionally include an additional data section up to 40 bytes in size. This is the layout of TCP headers:</p>
+                    <ol>
+                    <li>Source TCP port number (2 bytes)</li>
+                    <li>Destination TCP port number (2 bytes)</li>
+                    <li>Sequence number (4 bytes)</li>
+                    <li>Acknowledgment number (4 bytes)</li>
+                    <li>TCP data offset (4 bits)</li>
+                    <li>Reserved data (3 bits)</li>
+                    <li>Control flags (up to 9 bits)</li>
+                    <li>Window size (2 bytes)</li>
+                    <li>TCP checksum (2 bytes)</li>
+                    </ol>
+                    <p>&nbsp;</p>
+                    <table>
+                    <tbody>
+                    <tr>
+                    <td width="800">&nbsp;</td>
+                    </tr>
+                    <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <ol start="10">
+                    <li>Urgent pointer (2 bytes)</li>
+                    <li>TCP optional data (0-40 bytes)</li>
+                    </ol>
+                    <p>TCP inserts header fields into the message stream in the order listed above.</p>
+                    <ul>
+                    <li><em>Source and destination TCP port numbers </em>are the communication endpoints for sending and receiving</li>
+                    <li>Message senders use <em>sequence numbers </em>to mark the ordering of a group of messages. Both senders and receivers use the acknowledgment <em>numbers </em>field to communicate the sequence numbers of messages that are either recently received or expected to be</li>
+                    <li>The <em>data offset field </em>stores the total size of a TCP header in multiples of four bytes. A header not using the optional TCP field has a data offset of 5 (representing 20 bytes), while a header using the maximum-sized optional field has a data offset of 15 (representing 60 bytes).</li>
+                    <li><em>Reserved data </em>in TCP headers always has a value of zero. This field serves the purpose of aligning the total header size as a multiple of four bytes (important for the efficiency of computer data processing).</li>
+                    <li>TCP uses a set of six standard and three extended <em>control flags </em>(each an individual bit representing <em>on </em>or <em>off</em>) to manage data flow in specific One bit flag, for example, initiates TCP connection reset logic. The detailed operation of these fields goes beyond the scope of this article.</li>
+                    <li>TCP senders use a number called <em>window size </em>to regulate how much data they send to a receiver before requiring an acknowledgment in return. If the window size becomes too small, network data transfer will be unnecessarily slow, while if the window size becomes too large, the network link can become saturated (unusable for any other applications) or the receiver may not be able to process incoming data quickly enough (also resulting in slow performance). Windowing algorithms built into the protocol dynamically calculate size values and use this field of TCP headers to coordinate changes between senders and</li>
+                    <li>The <em>checksum </em>value inside a TCP header is generated by the protocol sender as a mathematical technique to help the receiver detect messages that are corrupted or tampered</li>
+                    <li>The urgent pointer field is often set to zero and ignored, but in conjunction with one of the control flags, it can be used as a data offset to mark a subset of a message as requiring priority</li>
+                    <li>Usages of optional TCP data go beyond the scope of this article but include support for special acknowledgment and window scaling algorithms.</li>
+                    </ul>
+                    <table>
+                    <tbody>
+                    <tr>
+                    <td colspan="3" width="361">
+                    <p><strong>Source Port Number</strong></p>
+                    <p><strong>(2 Bytes)</strong></p>
+                    </td>
+                    <td width="352">
+                    <p><strong>Destination Port Number</strong></p>
+                    <p><strong>(2 Bytes)</strong></p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="4" width="713">
+                    <p><strong>Sequence Number</strong></p>
+                    <p><strong>(4 Bytes)</strong></p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="4" width="713">
+                    <p><strong>Acknowledgement Number</strong></p>
+                    <p><strong>(4 Bytes)</strong></p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td width="105">
+                    <p><strong>Data Offset</strong></p>
+                    <p><strong>(4 Bits)</strong></p>
+                    </td>
+                    <td width="94">
+                    <p><strong>Reserved</strong></p>
+                    <p><strong>(3 Bits)</strong></p>
+                    </td>
+                    <td width="162">
+                    <p><strong>Control Flags</strong></p>
+                    <p><strong>(9 Bits)</strong></p>
+                    </td>
+                    <td width="352">
+                    <p><strong>Window Size</strong></p>
+                    <p><strong>(2 Bytes)</strong></p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="3" width="361">
+                    <p><strong>Checksum</strong></p>
+                    <p><strong>(2 Bytes)</strong></p>
+                    </td>
+                    <td width="352">
+                    <p><strong>Urgent Pointer</strong></p>
+                    <p><strong>(2 Bytes)</strong></p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="4" width="713">
+                    <p><strong>Optional Data</strong></p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td width="85">&nbsp;</td>
+                    <td width="94">&nbsp;</td>
+                    <td width="142">&nbsp;</td>
+                    <td width="332">&nbsp;</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    <p><strong>Fig 5.10 TCP Header Format (20-60 Bytes) YOUTUBE LINK: </strong><a href="https://www.youtube.com/watch?v=wlTtOqeklJI">https://www.youtube.com/watch?v=wlTtOqeklJI</a></p>
+                    <h2>TCP Timer Management</h2>
+                    <ul>
+                    <li>TCP uses multiple timers (at least conceptually) to do its work. The most important of these is the RTO (Retransmission Time Out). When a segment is sent, a retransmission timer is started. If the segment is acknowledged before the timer expires, the timer is stopped. If, on the other hand, the timer goes off before the acknowledgement comes in, the segment is retransmitted (and the timer OS started again). It is difficult to predict how long should the timeout</li>
+                    <li>This problem is much more difficult in the transport layer than in data link protocols such as 802.11. In the latter case, the expected delay is measured in microseconds and is highly predictable (i.e.,</li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>has a low variance), so the timer can be set to go off just slightly after the acknowledgement is expected, as shown in Fig below. Since acknowledgements are rarely delayed in the data link layer (due to lack of congestion), the absence of an acknowledgement at the expected time generally means either the frame or the acknowledgement has been lost.</p>
+                    <p>&nbsp;</p>
+                    <ul>
+                    <li>TCP is faced with a radically different environment. The probability density function for the time it takes for a TCP acknowledgement to come back looks more like (b) than Fig. (a) as shown above. It is larger and more variable. Determining the round-trip time to the destination is tricky. Even when it is known, deciding on the timeout interval is also difficult. If the timeout is set too short, say, T1 in Fig. (b), unnecessary retransmissions will occur, clogging the Internet with useless packets. If it is set too long (e.g., T2), performance will suffer due to the long retransmission delay whenever a packet is lost. Furthermore, the mean and variance of the acknowledgement arrival distribution can change rapidly within a few seconds as congestion builds up or is resolved.</li>
+                    <li>The solution is to use a dynamic algorithm that constantly adapts the timeout interval, based on continuous measurements of network performance. The algorithm generally used by TCP is due to Jacobson (1988) and works as For each connection, TCP maintains a variable, SRTT (Smoothed Round-Trip Time) that is the best current estimate of the round-trip time to the destination in question.</li>
+                    <li>When a segment is sent, a timer is started, both to see how long the acknowledgement takes and also to trigger a retransmission if it takes too long. If the acknowledgement gets back before the timer expires, TCP measures how long the acknowledgement took, say, R. It then updates SRTT according to the</li>
+                    </ul>
+                    <p><em>SRTT</em>=<em>&alpha;SRTT</em>+ (1&minus;<em>&alpha;</em>) <em>R</em></p>
+                    <p>Where &alpha; is a smoothing factor that determines how quickly the old values are forgotten. Typically, &alpha; = 7/8. This kind of formula is a EWMA (Exponentially Weighted Moving Average) or low-pass filter that discards noise in the samples.</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                
+                </div>
+
+
+                <div class="tab-pane fade" id="list-IMP" role="tabpanel"
+                    aria-labelledby="list-IMP-list">
+                
+                    <p><strong>HTTP : </strong>Short for HyperText Transfer Protocol, HTTP is a set of standards that allow users of the World Wide Web to exchange information found on web pages. When accessing any web page entering http:// in front of the address tells the browser to communicate over HTTP. For example, the URL for Computer Hope is https://<a href="http://www.computerhope.com/">www.computerhope.com. </a>Today's browsers no longer require HTTP in front of the URL since it is the default method of communication. However, it is kept in browsers because of the need to separate protocols such as FTP.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>FTP- </strong>Stands for "File Transfer Protocol." FTP is a protocol designed for transferring files over the Internet. Files stored on an FTP server can be accessed using an FTP client, such as a web browser, FTP software program, or a command line interface.</p>
+                    <p><strong>SSH- </strong>The Secure Shell (SSH) protocol performs public-key encryption using a host key and a server key. SSH improves security by providing a means for the storage system to authenticate the client and by generating a session key that encrypts data sent between the client and storage system.</p>
+                    <p>The SSH server version running on Data ONTAP is Data ONTAP SSH version 1.0. For information about the Common Vulnerabilities and Exposures (CVE) fixes implemented in Data ONTAP, see the Suspected Security Vulnerabilities page on the NetApp Support Site.</p>
+                    <p>Data ONTAP supports the SSH 1.x protocol and the SSH 2.0 protocol. Data ONTAP supports the following SSH clients:</p>
+                    <ul>
+                    <li>OpenSSH client version 4p1 on UNIX platforms</li>
+                    <li>SSH Communications Security client (SSH Tectia client) version 0.0 on Windows platforms</li>
+                    <li>Vandyke SecureCRT version 0.1 on Windows platforms</li>
+                    <li>PuTTY version 0.6.0 on Windows platforms</li>
+                    <li>F-Secure SSH client version 7.0.0 on UNIX platforms SSH uses three keys to improve security:</li>
+                    <li>Host key</li>
+                    </ul>
+                    <p>SSH uses the host key to encrypt and decrypt the session key. You determine the size of the host key, and Data ONTAP generates the host key when you configure SecureAdmin.</p>
+                    <ul>
+                    <li>Server key
+                    <p>SSH uses the server key to encrypt and decrypt the session key. You determine the size of the server key when you configure SecureAdmin. If SSH is enabled, Data ONTAP generates the server key when any of the following events occur:</p>
+                    <ul>
+                    <li>You start SecureAdmin</li>
+                    <li>An hour elapses</li>
+                    <li>The storage system reboots</li>
+                    <li>Session key</li>
+                    </ul>
+                    <p>SSH uses the session key to encrypt data sent between the client and storage system. The session key is created by the client. To use the session key, the client encrypts the session key using the host and server keys and sends the encrypted session key to the storage system, where it is decrypted using the host and server keys. After the session key is decrypted, the client and storage system can exchange encrypted data.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>EMAIL: </strong>E-mail Protocols are set of rules that help the client to properly transmit the information to or from the mail server. Here in this tutorial, we will discuss various protocols such as SMTP, POP, and IMAP.</p>
+                    <p><strong>SMTP : </strong>SMTP stands for Simple Mail Transfer Protocol. It was first proposed in 1982. It is a standard protocol used for sending e-mail efficiently and reliably over the internet.</p>
+                    <ul>
+                    <li>SMTP is application level</li>
+                    <li>SMTP is connection oriented</li>
+                    <li>SMTP is text based</li>
+                    <li>It handles exchange of messages between e-mail servers over TCP/IP</li>
+                    <li>Apart from transferring e-mail, SMPT also provides notification regarding incoming</li>
+                    <li>When you send e-mail, your e-mail client sends it to your e-mail server which further contacts the recipient mail server using SMTP</li>
+                    <li>These SMTP commands specify the sender&rsquo;s and receiver&rsquo;s e-mail address, along with the message to be</li>
+                    <li>The exchange of commands between servers is carried out without intervention of any</li>
+                    <li>In case, message cannot be delivered, an error report is sent to the sender which makes SMTP a reliable</li>
+                    </ul>
+                    <p><strong>IMAP : </strong>IMAP stands for Internet Mail Access Protocol. It was first proposed in 1986. There exist five versions of IMAP as follows:</p>
+                    <ol>
+                    <li>Original IMAP</li>
+                    <li>IMAP2</li>
+                    <li>IMAP3</li>
+                    <li>IMAP2bis</li>
+                    <li>IMAP4
+                    <ul>
+                    <li>IMAP allows the client program to manipulate the e-mail message on the server without downloading them on the local</li>
+                    <li>The e-mail is hold and maintained by the remote</li>
+                    <li>It enables us to take any action such as downloading, delete the mail without reading the It enables us to create, manipulate and delete remote message folders called mail boxes.</li>
+                    <li>IMAP enables the users to search the e-mails.</li>
+                    <li>It allows concurrent access to multiple mailboxes on multiple mail</li>
+                    </ul>
+                    </li>
+                    </ol>
+                    <h2>MIME:</h2>
+                    <p>&nbsp;</p>
+                    <p>Multipurpose Internet Mail Extension (MIME) is a standard which was proposed by Bell Communications in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;1991&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;order&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;to&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;expand&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;limited&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;capabilities&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; of&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; email. MIME is a kind of add on or a supplementary protocol which allows non-ASCII data to be sent through SMTP. It allows the users to exchange different kinds of data files on the Internet: audio, video, images, application programs as well.</p>
+                    <p>Limitations of Simple Mail Transfer Protocol (SMTP):</p>
+                    <p>&nbsp;</p>
+                    <ol>
+                    <li>SMTP has a very simple structure</li>
+                    <li>It&rsquo;s simplicity however comes with a price as it only send messages in NVT 7-bit ASCII</li>
+                    <li>It cannot be used for languages that do not support 7-bit ASCII format such as- French, German, Russian, Chinese and Japanese, etc. so it cannot be transmitted using SMTP. So, in order to make SMTP more broad we use</li>
+                    <li>It cannot be used to send binary files or video or audio</li>
+                    </ol>
+                    <p>&nbsp;</p>
+                    <p>Features of MIME &ndash;</p>
+                    <p>&nbsp;</p>
+                    <ol>
+                    <li>It is able to send multiple attachments with a single</li>
+                    <li>Unlimited message</li>
+                    <li>Binary attachments (executables, images, audio, or video files) which may be divided if</li>
+                    <li>MIME provided support for varying content types and multi-part</li>
+                    </ol>
+                    <p>&nbsp;</p>
+                    <p>MIME with&nbsp;&nbsp; &nbsp;SMTP&nbsp;&nbsp; and&nbsp;&nbsp;&nbsp; &nbsp;POP &ndash;SMTP transfers the mail being a message transfer agent from senders side to the mailbox of receiver side and stores it and MIME header is added to the original header and provides additional information. while POP being the message access agent organizes the mails from the mail server to the receivers computer. POP allows user agent to connect with the message transfer agent.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>SNMP: </strong>Simple Network Management Protocol (SNMP) is an application-layer protocol used to manage and monitor network devices and their functions. SNMP provides a common language for network devices to relay management information within single- and multivendor environments in a local area network (LAN) or wide area network (WAN). The most recent iteration of SNMP, version 3, includes security enhancements that authenticate and encrypt SNMP messages as well as protect packets during transit.</p>
+                    <p>One of the most widely used protocols; SNMP is supported on an extensive range of hardware -- from conventional network equipment like routers, switches and wireless access points to endpoints like&nbsp;printers, scanners and internet of things (IoT) devices. In addition to hardware, SNMP can be used to monitor services such as Dynamic Host Configuration Protocol (DHCP). Software agents on these devices and services communicate with a network management system (NMS) also referred to as an SNMP manager, via SNMP to relay status information and configuration changes.</p>
+                    </li>
+                    </ul>
+                    <p><strong>DNS : </strong>The domain name system (DNS) is the way that internet domain names are located and translated into internet protocol (IP) addresses. The domain name system maps the name people use to locate a website to the IP addresses that a computer uses to locate a website. For example, if someone types TechTarget.com into a web browser, a server behind the scenes will map that name to the IP address 206.19.49.149.</p>
+                    <p>Web browsing and most other internet activity rely on DNS to quickly provide the information necessary to connect users to remote hosts. DNS mapping is distributed throughout the internet in a hierarchy of authority. Access providers and enterprises, as well as governments, universities and other organizations, typically have their own assigned ranges of IP addresses and an assigned domain name; they also typically run DNS servers to manage the mapping of those names to those addresses. Most URLs are built around the domain name of the web server that takes client requests.</p>
+                    <p>&nbsp;</p>
+                
+                </div>
+
+                <div class="tab-pane fade" id="list-TCP" role="tabpanel"
+                    aria-labelledby="list-TCP-list">
+                
+                
+                
+                </div>
+
+                <div class="tab-pane fade" id="list-TCP" role="tabpanel"
+                    aria-labelledby="list-TCP-list">
+                
+                
+                
+                </div>
+
+                <div class="tab-pane fade" id="list-TCP" role="tabpanel"
+                    aria-labelledby="list-TCP-list">
+                
+                
+                
+                </div>
+
+                <div class="tab-pane fade" id="list-TCP" role="tabpanel"
+                    aria-labelledby="list-TCP-list">
+                
+                
+                
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

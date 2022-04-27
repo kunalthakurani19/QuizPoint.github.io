@@ -1,0 +1,24 @@
+SMAP
+notes_jsp.java
+JSP
+*S JSP
+*F
++ 0 notes.jsp
+notes.jsp
++ 1 allLinks.jsp
+all_components/allLinks.jsp
++ 2 navbar.jsp
+all_components/navbar.jsp
++ 3 footer.jsp
+all_components/footer.jsp
+*L
+1,5:51
+1#1,48:56
+5#0,8:104
+1#2,35:112
+12#0,40:146
+1#3,126:186
+51#0,3:312
+1#1,48:315
+53#0,6:363
+*E

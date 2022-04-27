@@ -1,0 +1,34 @@
+SMAP
+machineLearningQuiz_jsp.java
+JSP
+*S JSP
+*F
++ 0 machineLearningQuiz.jsp
+quiz/machineLearningQuiz.jsp
++ 1 allLinks.jsp
+quiz/../all_components/allLinks.jsp
++ 2 navbar.jsp
+quiz/../all_components/navbar.jsp
+*L
+1,5:51
+7,11:57
+17,5:68
+21:73
+22:74,3
+23,9:77
+31,4:86
+1#1,82:89
+34#0:171
+1#2,32:172
+33,4:205
+36:209
+37:210,3
+38,5:213
+42,2:218
+43,5:220
+47,3:225
+49,8:228
+35#0,81:235
+116:316,2
+117,19:318
+*E
